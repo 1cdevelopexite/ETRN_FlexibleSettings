@@ -45,7 +45,7 @@
 	</column>
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
-		<Value xsi:type="xs:string">Создать документ ЭТрН</Value>
+		<Value xsi:type="xs:string">Создать документ ЭТрН ГПер</Value>
 		<Value xsi:type="xs:string"/>
 		<Value xsi:type="xs:string">DR_Документы</Value>
 		<Value xsi:type="xs:string">Если ЗначениеЗаполнено(Источник) Тогда 
@@ -191,7 +191,7 @@
 			</item>
 			<item>
 				<value xsi:type="xs:string">ИмяКнопки</value>
-				<presentation>Создать документ ЭТрН</presentation>
+				<presentation>Создать документ ЭТрН ГПер</presentation>
 				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">4</id>
 			</item>
