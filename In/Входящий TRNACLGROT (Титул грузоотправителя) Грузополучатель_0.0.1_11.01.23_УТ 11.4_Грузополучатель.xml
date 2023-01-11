@@ -33,7 +33,7 @@
 	</column>
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
-		<Value xsi:type="xs:string">Входящий TRNACLGROT (Титул грузоотправителя), Грузополучатель</Value>
+		<Value xsi:type="xs:string">Входящий TRNACLGROT (Титул грузоотправителя) Грузополучатель</Value>
 		<Value xsi:type="xs:string">Если ЗначениеЗаполнено(СтруктураДокумента) Тогда
     ТЗГруз = Новый ТаблицаЗначений; 
     СтруктураДанных = Новый Структура;

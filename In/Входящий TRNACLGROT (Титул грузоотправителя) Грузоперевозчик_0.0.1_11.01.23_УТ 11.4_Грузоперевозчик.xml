@@ -33,7 +33,7 @@
 	</column>
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
-		<Value xsi:type="xs:string">Входящий TRNACLGROT (Титул грузоотправителя), Грузоперевозчик</Value>
+		<Value xsi:type="xs:string">Входящий TRNACLGROT (Титул грузоотправителя) Грузоперевозчик</Value>
 		<Value xsi:type="xs:string">//+
 НоваяЗапись = Приемник.ДополнительныеРеквизиты.Добавить();
 НоваяЗапись.Реквизит = "Организация";
