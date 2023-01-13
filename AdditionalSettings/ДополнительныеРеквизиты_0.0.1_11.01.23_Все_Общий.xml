@@ -194,7 +194,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_НомерТрН</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -207,7 +207,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_НомерТрН</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -454,7 +454,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвТС_Прицеп_НомерВИН</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -506,7 +506,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Вместим</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -519,7 +519,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_УказГО_НалКоорТочВрДост</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -532,7 +532,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_НалКоорТочВрФПогр</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -545,7 +545,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_НалКоорТочВрЗаяв</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -558,7 +558,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_НалКоорТочВрФУбыт</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -584,7 +584,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Грузопод</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -597,7 +597,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвВодит_ДатаВыдВУ</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -636,7 +636,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_ЗаявПогр</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -714,7 +714,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвВодит_ФИО_Имя</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -747,13 +747,13 @@
 	</row>
 	<row>
 		<Value>Количество грузовых мест</Value>
-		<Value>ГруппаСведенияОПогрузке|КолМестПрием</Value>
+		<Value>ГруппаИнформацияГрузоотправителя|КолМестПрием</Value>
 		<Value>Число</Value>
 		<Value/>
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_КолМестПрием</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -792,7 +792,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Марка</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -851,26 +851,26 @@
 	</row>
 	<row>
 		<Value>Масса брутто груза</Value>
-		<Value>ГруппаСведенияОПогрузке|МасБрутОтгр</Value>
+		<Value>ГруппаИнформацияГрузоотправителя|МасБрутОтгр</Value>
 		<Value>Число</Value>
 		<Value/>
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_МасБрутОтгр</Value>
 		<Value/>
 		<Value/>
 		<Value/>
 	</row>
 	<row>
 		<Value>Метод определения массы груза</Value>
-		<Value>ГруппаСведенияОПогрузке|МетОпрМасс</Value>
+		<Value>ГруппаИнформацияГрузоотправителя|МетОпрМасс</Value>
 		<Value>Строка</Value>
 		<Value/>
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_МетОпрМасс</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -922,7 +922,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвВодит_НомВУ</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -974,7 +974,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвТС_Прицеп_НомСТС</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -987,7 +987,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвВодит_ФИО_Отчество</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1026,7 +1026,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвТС_Прицеп_РегНомер</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1065,7 +1065,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвВодит_СерВУ</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1143,7 +1143,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвВодит_Тлф</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1169,7 +1169,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Тип</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1195,7 +1195,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвТС_Прицеп_ТипВлад</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1234,7 +1234,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_ФДатВрПриб</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1247,14 +1247,14 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвПогруз_ФДатВрУбыт</Value>
 		<Value/>
 		<Value/>
 		<Value/>
 	</row>
 	<row>
 		<Value>Фактическое состояние кузова</Value>
-		<Value>ГруппаСведенияОПогрузке|ФСостКуз</Value>
+		<Value>ГруппаИнформацияГрузоотправителя|ФСостКуз</Value>
 		<Value>Строка</Value>
 		<Value/>
 		<Value>false</Value>
@@ -1267,7 +1267,7 @@
 	</row>
 	<row>
 		<Value>Фактическое состояние тары</Value>
-		<Value>ГруппаСведенияОПогрузке|ФСостТар</Value>
+		<Value>ГруппаИнформацияГрузоотправителя|ФСостТар</Value>
 		<Value>Строка</Value>
 		<Value/>
 		<Value>false</Value>
@@ -1280,7 +1280,7 @@
 	</row>
 	<row>
 		<Value>Фактическое состояние упаковки</Value>
-		<Value>ГруппаСведенияОПогрузке|ФСостУп</Value>
+		<Value>ГруппаИнформацияГрузоотправителя|ФСостУп</Value>
 		<Value>Строка</Value>
 		<Value/>
 		<Value>false</Value>
@@ -1299,7 +1299,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>Документ_СодИнфГО_СвВодит_ФИО_Фамилия</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1697,8 +1697,8 @@
 	<row>
 		<Value>Дата отметки</Value>
 		<Value>СведенияАктовВзвешивания_ДатВрОтмет</Value>
-		<Value>Строка</Value>
-		<Value>50</Value>
+		<Value>Дата</Value>
+		<Value/>
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
@@ -1806,6 +1806,136 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Оговорки и замечания в отношении фактических даты и времени прибытия</Value>
+		<Value>ГруппаЗаявленнаяДатаОговоркаЛево|ЗамДатВрПриб</Value>
+		<Value>Дата</Value>
+		<Value/>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>время UTC</Value>
+		<Value>ГруппаЗаявленнаяДатаОговоркаПраво|НалКоорТочВрПрб</Value>
+		<Value>Булево</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Оговорки и замечания в отношении фактических даты и времени убытия</Value>
+		<Value>ГруппаФактическаяДатаУбытияОговоркаЛево|ЗамДатВрУбыт</Value>
+		<Value>Дата</Value>
+		<Value/>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>время UTC</Value>
+		<Value>ГруппаФактическаяДатаУбытияОговоркаПраво|НалКоорТочВрУб</Value>
+		<Value>Булево</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Оговорки и замечания в отношении фактических даты и времени постановки на погрузку</Value>
+		<Value>ГруппаФактическаяДатаПогрузкиОговоркаЛево|ЗамДатВрПосПрием</Value>
+		<Value>Дата</Value>
+		<Value/>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>время UTC</Value>
+		<Value>ГруппаФактическаяДатаПогрузкиОговоркаПраво|НалКоорТочВрПрм</Value>
+		<Value>Булево</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Оговорки и замечания в отношении фактического состояния груза</Value>
+		<Value>ГруппаЗамечанияПеревозчика|ЗамСостГруз</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Оговорки и замечания в отношении массы груза</Value>
+		<Value>ГруппаЗамечанияПеревозчика|ЗамМасс</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Оговорки и замечания в отношении количества грузовых мест</Value>
+		<Value>ГруппаЗамечанияПеревозчика|ЗамКолМест</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Оговорки и замечания в отношении проведения погрузочных работ</Value>
+		<Value>ГруппаЗамечанияПеревозчика|ЗамПогрРаб</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -2577,5 +2707,44 @@
 		<Value>Документ_СодИнфПрвПрием_УИД_ТрН</Value>
 		<Value>Документ_СодИнфГП_УИД_ТрН</Value>
 		<Value>Документ_СодПрвВыд_УИД_ТрН</Value>
+	</row>
+	<row>
+		<Value>ЭП</Value>
+		<Value>ЭП</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Да</Value>
+		<Value>Документ_СодИнфГО_ИдЗак_ЭП</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>ДатФайлЗак</Value>
+		<Value>ДатФайлЗак</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Нет</Value>
+		<Value>Документ_СодИнфГО_ИдЗак_ДатФайлЗак</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>ВрФайлЗак</Value>
+		<Value>ВрФайлЗак</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>Нет</Value>
+		<Value>Да</Value>
+		<Value>Нет</Value>
+		<Value>Документ_СодИнфГО_ИдЗак_ВрФайлЗак</Value>
+		<Value/>
+		<Value/>
+		<Value/>
 	</row>
 </ValueTable>
