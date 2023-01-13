@@ -1816,7 +1816,7 @@
 		<Value>ГруппаЗаявленнаяДатаОговоркаЛево|ЗамДатВрПриб</Value>
 		<Value>Дата</Value>
 		<Value/>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
 		<Value/>
@@ -1842,7 +1842,7 @@
 		<Value>ГруппаФактическаяДатаУбытияОговоркаЛево|ЗамДатВрУбыт</Value>
 		<Value>Дата</Value>
 		<Value/>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
 		<Value/>
@@ -1868,7 +1868,7 @@
 		<Value>ГруппаФактическаяДатаПогрузкиОговоркаЛево|ЗамДатВрПосПрием</Value>
 		<Value>Дата</Value>
 		<Value/>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
 		<Value/>
