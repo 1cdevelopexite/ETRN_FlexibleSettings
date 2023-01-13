@@ -1816,9 +1816,9 @@
 		<Value>ГруппаЗаявленнаяДатаОговоркаЛево|ЗамДатВрПриб</Value>
 		<Value>Дата</Value>
 		<Value/>
-		<Value>Да</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>true</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1829,9 +1829,9 @@
 		<Value>ГруппаЗаявленнаяДатаОговоркаПраво|НалКоорТочВрПрб</Value>
 		<Value>Булево</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1842,9 +1842,9 @@
 		<Value>ГруппаФактическаяДатаУбытияОговоркаЛево|ЗамДатВрУбыт</Value>
 		<Value>Дата</Value>
 		<Value/>
-		<Value>Да</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>true</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1855,9 +1855,9 @@
 		<Value>ГруппаФактическаяДатаУбытияОговоркаПраво|НалКоорТочВрУб</Value>
 		<Value>Булево</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1868,9 +1868,9 @@
 		<Value>ГруппаФактическаяДатаПогрузкиОговоркаЛево|ЗамДатВрПосПрием</Value>
 		<Value>Дата</Value>
 		<Value/>
-		<Value>Да</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>true</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1881,9 +1881,9 @@
 		<Value>ГруппаФактическаяДатаПогрузкиОговоркаПраво|НалКоорТочВрПрм</Value>
 		<Value>Булево</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1894,9 +1894,9 @@
 		<Value>ГруппаЗамечанияПеревозчика|ЗамСостГруз</Value>
 		<Value>Строка</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1907,9 +1907,9 @@
 		<Value>ГруппаЗамечанияПеревозчика|ЗамМасс</Value>
 		<Value>Строка</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1920,9 +1920,9 @@
 		<Value>ГруппаЗамечанияПеревозчика|ЗамКолМест</Value>
 		<Value>Строка</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -1933,9 +1933,9 @@
 		<Value>ГруппаЗамечанияПеревозчика|ЗамПогрРаб</Value>
 		<Value>Строка</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -2713,9 +2713,9 @@
 		<Value>ЭП</Value>
 		<Value>Строка</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Да</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value>Документ_СодИнфГО_ИдЗак_ЭП</Value>
 		<Value/>
 		<Value/>
@@ -2726,9 +2726,9 @@
 		<Value>ДатФайлЗак</Value>
 		<Value>Строка</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Нет</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>false</Value>
 		<Value>Документ_СодИнфГО_ИдЗак_ДатФайлЗак</Value>
 		<Value/>
 		<Value/>
@@ -2739,9 +2739,9 @@
 		<Value>ВрФайлЗак</Value>
 		<Value>Строка</Value>
 		<Value/>
-		<Value>Нет</Value>
-		<Value>Да</Value>
-		<Value>Нет</Value>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>false</Value>
 		<Value>Документ_СодИнфГО_ИдЗак_ВрФайлЗак</Value>
 		<Value/>
 		<Value/>
