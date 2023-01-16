@@ -2578,4 +2578,43 @@
 		<Value>Документ_СодИнфГП_УИД_ТрН</Value>
 		<Value>Документ_СодПрвВыд_УИД_ТрН</Value>
 	</row>
+	<row>
+		<Value>ЭП</Value>
+		<Value>ЭП</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
+		<Value>Документ_СодИнфГО_ИдЗак_ЭП</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>ДатФайлЗак</Value>
+		<Value>ДатФайлЗак</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value>Документ_СодИнфГО_ИдЗак_ДатФайлЗак</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>ВрФайлЗак</Value>
+		<Value>ВрФайлЗак</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value>Документ_СодИнфГО_ИдЗак_ВрФайлЗак</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
 </ValueTable>
