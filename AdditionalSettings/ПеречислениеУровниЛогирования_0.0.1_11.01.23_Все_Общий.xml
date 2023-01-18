@@ -1,0 +1,37 @@
+﻿<ValueTable xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ValueTable">
+	<column>
+		<Name xsi:type="xs:string">Значение</Name>
+		<ValueType/>
+		<Width xsi:type="xs:decimal">20</Width>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Синоним</Name>
+		<ValueType/>
+		<Width xsi:type="xs:decimal">20</Width>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Комментарий</Name>
+		<ValueType/>
+		<Width xsi:type="xs:decimal">20</Width>
+	</column>
+	<row>
+		<Value xsi:type="xs:string">Ошибка</Value>
+		<Value xsi:type="xs:string">Ошибка</Value>
+		<Value xsi:nil="true"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:string">Информация</Value>
+		<Value xsi:type="xs:string">Информационные сообщения</Value>
+		<Value xsi:nil="true"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:string">Предупреждение</Value>
+		<Value xsi:type="xs:string">Предупреждение</Value>
+		<Value xsi:nil="true"/>
+	</row>
+	<row>
+		<Value xsi:type="xs:string">Успешно</Value>
+		<Value xsi:type="xs:string">Успешные сообщения</Value>
+		<Value xsi:nil="true"/>
+	</row>
+</ValueTable>
