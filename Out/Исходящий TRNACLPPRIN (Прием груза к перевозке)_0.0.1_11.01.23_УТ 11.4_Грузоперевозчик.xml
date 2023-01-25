@@ -1001,7 +1001,7 @@
 		</row>
 		<Value xsi:type="xs:boolean">true</Value>
 		<Value xsi:type="xs:string">Исходящий TRNACLPPRIN (Прием груза к перевозке)</Value>
-		<Value xsi:type="xs:string">Документ_Основание</Value>
+		<Value xsi:type="xs:string">ТекущийДокумент</Value>
 		<Value xsi:type="xs:string">Файл</Value>
 		<Value xsi:type="Structure">
 			<Property name="Ссылка">
