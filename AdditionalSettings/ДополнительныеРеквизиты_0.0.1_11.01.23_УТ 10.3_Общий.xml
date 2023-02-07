@@ -176,7 +176,7 @@
 	<row>
 		<Value>Документ 1С</Value>
 		<Value>ГруппаПараметрыЛево|Документ1С</Value>
-		<Value>ДокументСсылка.ТранспортнаяНакладная</Value>
+		<Value>ДокументСсылка.РеализацияТоваровУслуг</Value>
 		<Value/>
 		<Value>false</Value>
 		<Value>true</Value>
