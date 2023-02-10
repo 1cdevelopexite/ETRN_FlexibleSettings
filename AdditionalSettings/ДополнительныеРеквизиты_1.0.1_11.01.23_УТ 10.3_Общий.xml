@@ -2747,4 +2747,30 @@
 		<Value/>
 		<Value/>
 	</row>
+	<row>
+		<Value>ВидДокумента</Value>
+		<Value>ВидДокумента</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value></Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Статус</Value>
+		<Value>Статус</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value></Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
 </ValueTable>
