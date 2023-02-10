@@ -207,7 +207,7 @@
 		<Value>false</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>Документ_СодИнфГО_НомерТрН</Value>
+		<Value>Документ_СодИнфГО_ДатаТрН</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -2743,6 +2743,32 @@
 		<Value>true</Value>
 		<Value>false</Value>
 		<Value>Документ_СодИнфГО_ИдЗак_ВрФайлЗак</Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>ВидДокумента</Value>
+		<Value>ВидДокумента</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value></Value>
+		<Value/>
+		<Value/>
+		<Value/>
+	</row>
+	<row>
+		<Value>Статус</Value>
+		<Value>Статус</Value>
+		<Value>Строка</Value>
+		<Value/>
+		<Value>false</Value>
+		<Value>true</Value>
+		<Value>false</Value>
+		<Value></Value>
 		<Value/>
 		<Value/>
 		<Value/>
