@@ -37,7 +37,7 @@
 	</column>
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
-		<Value xsi:type="xs:string">Создать Документ ЭТрН ГО</Value>
+		<Value xsi:type="xs:string">Создать документ ЭТрН ГО</Value>
 		<Value xsi:type="xs:string">Накладная</Value>
 		<Value xsi:type="xs:string">РеализацияТоваровУслуг</Value>
 		<Value xsi:type="xs:string">DR_Документы</Value>
