@@ -121,7 +121,7 @@
 		<Value xsi:type="xs:string"/>
 		<Value xsi:type="xs:decimal">0</Value>
 		<Value xsi:type="xs:decimal">0</Value>
-		<Value xsi:type="xs:string">Документ_Основание</Value>
+		<Value xsi:type="xs:string">ТекущийДокумент</Value>
 		<Value xsi:type="ValueListType">
 			<valueType/>
 			<lastId xsi:type="xs:decimal">4</lastId>

@@ -38,7 +38,7 @@
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
 		<Value xsi:type="xs:string">Замена водителя</Value>
-		<Value xsi:type="xs:string">Документ_Основание</Value>
+		<Value xsi:type="xs:string">ТекущийДокумент</Value>
 		<Value xsi:type="xs:string"/>
 		<Value xsi:type="xs:string">DR_Документы</Value>
 		<Value xsi:type="xs:string"/>
