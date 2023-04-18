@@ -369,19 +369,6 @@
 		<Value/>
 	</row>
 	<row>
-		<Value>Вид документа</Value>
-		<Value>ВидДокумента</Value>
-		<Value>Строка</Value>
-		<Value/>
-		<Value>true</Value>
-		<Value>false</Value>
-		<Value>true</Value>
-		<Value/>
-		<Value/>
-		<Value/>
-		<Value/>
-	</row>
-	<row>
 		<Value>xml Доп получатель</Value>
 		<Value>ИныеПолучатели_xmlДопПолучатель</Value>
 		<Value>СправочникСсылка.Организации;СправочникСсылка.Контрагенты</Value>
@@ -399,19 +386,6 @@
 		<Value>ИныеПолучатели_ДопПолучатель</Value>
 		<Value>Число</Value>
 		<Value/>
-		<Value>false</Value>
-		<Value>false</Value>
-		<Value>false</Value>
-		<Value/>
-		<Value/>
-		<Value/>
-		<Value/>
-	</row>
-	<row>
-		<Value>Статус</Value>
-		<Value>Статус</Value>
-		<Value>Строка</Value>
-		<Value>50</Value>
 		<Value>false</Value>
 		<Value>false</Value>
 		<Value>false</Value>

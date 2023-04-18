@@ -8,10 +8,6 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">КолонкаИсточника</Name>
-		<ValueType/>
-	</column>
-	<column>
 		<Name xsi:type="xs:string">Источник</Name>
 		<ValueType/>
 	</column>
@@ -20,7 +16,7 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">СлужебныеТекст</Name>
+		<Name xsi:type="xs:string">Служебные</Name>
 		<ValueType/>
 	</column>
 	<column>
@@ -28,7 +24,19 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">Служебные</Name>
+		<Name xsi:type="xs:string">СлужебныеТекст</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Сохранение</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Загрузка</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">КолонкаИсточника</Name>
 		<ValueType/>
 	</column>
 	<column>
@@ -38,11 +46,8 @@
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
 		<Value xsi:type="xs:string">Создать документ ЭТрН ГП</Value>
-		<Value xsi:type="xs:string">ON_TRNACLPPRIN_Входящий</Value>
-		<Value xsi:type="xs:string">DR_Документы</Value>
-		<Value xsi:type="xs:string">DR_Документы</Value>
 		<Value xsi:type="xs:string"/>
-		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">DR_Документы</Value>
 		<Value xsi:type="xs:string">Если ЗначениеЗаполнено(Источник) Тогда 
 		
 	Если Источник.ВидДокумента = ПолучитьЗначение_Перечисления("ВидыДокументов", "ON_TRNACLPPRIN_Входящий") Тогда
@@ -80,9 +85,9 @@
 		
 		//Получаем GUID участников обмена 	
 		
-		xmlГрузополучатель  = "2LD"+ВернутьЗначениеДопРеквизитаИзДокумента("XMLГрузополучатель", ТЧДопРеквизиты);
-		xmlГрузоотправитель = "2LD"+ВернутьЗначениеДопРеквизитаИзДокумента("XMLГрузоотправитель", ТЧДопРеквизиты);
-		xmlГрузоперевозчик  = "2LD"+ВернутьЗначениеДопРеквизитаИзДокумента("XMLГрузоперевозчик", ТЧДопРеквизиты);
+		xmlГрузополучатель  = ВернутьЗначениеДопРеквизитаИзДокумента("XMLГрузополучатель", ТЧДопРеквизиты);
+		xmlГрузоотправитель = ВернутьЗначениеДопРеквизитаИзДокумента("XMLГрузоотправитель", ТЧДопРеквизиты);
+		xmlГрузоперевозчик  = ВернутьЗначениеДопРеквизитаИзДокумента("XMLГрузоперевозчик", ТЧДопРеквизиты);
 		
 		СписокРеквизитов.Вставить("xmlОрганизация", 			ВернутьЗначениеДопРеквизитаИзДокумента("XMLОрганизация", ТЧДопРеквизиты));
 	    СписокРеквизитов.Вставить("xmlГрузоотправитель", 		xmlГрузоотправитель);
@@ -114,6 +119,11 @@
 	КонецЕсли;
 	
 КонецЕсли;</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:decimal">0</Value>
+		<Value xsi:type="xs:decimal">0</Value>
+		<Value xsi:type="xs:string">ON_TRNACLPPRIN_Входящий</Value>
 		<Value xsi:type="ValueListType">
 			<valueType/>
 			<lastId xsi:type="xs:decimal">4</lastId>

@@ -55,62 +55,72 @@
 	<row>
 		<Value>ON_TRNACLGRPO_Входящий</Value>
 		<Value>ON_TRNACLGRPO_Входящий</Value>
-		<Value/>
+		<Value>Информация грузополучателя. Входящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNACLGRPO_Исходящий</Value>
 		<Value>ON_TRNACLGRPO_Исходящий</Value>
-		<Value/>
+		<Value>Информация грузополучателя. Исходящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNACLPVYN_Входящий</Value>
 		<Value>ON_TRNACLPVYN_Входящий</Value>
-		<Value/>
+		<Value>Информация перевозчика о выдаче груза получателю. Входящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNACLPVYN_Исходящий</Value>
 		<Value>ON_TRNACLPVYN_Исходящий</Value>
-		<Value/>
+		<Value>Информация перевозчика о выдаче груза получателю. Исходящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNPEREADR_Входящий</Value>
 		<Value>ON_TRNPEREADR_Входящий</Value>
-		<Value/>
+		<Value>Информация о переадресовке. Входящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNPEREADR_Исходящий</Value>
 		<Value>ON_TRNPEREADR_Исходящий</Value>
-		<Value/>
+		<Value>Информация о переадресовке. Исходящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNZAMEN_Входящий</Value>
 		<Value>ON_TRNZAMEN_Входящий</Value>
-		<Value/>
+		<Value>Информация о заменах водителей и/или ТС. Входящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNZAMEN_Исходящий</Value>
 		<Value>ON_TRNZAMEN_Исходящий</Value>
-		<Value/>
+		<Value>Информация о заменах водителей и/или ТС. Исходящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNPUDPER_Входящий</Value>
 		<Value>ON_TRNPUDPER_Входящий</Value>
-		<Value/>
+		<Value>Информация перевозчика о факте хоз жизни. Входящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNPUDPER_Исходящий</Value>
 		<Value>ON_TRNPUDPER_Исходящий</Value>
-		<Value/>
+		<Value>Информация перевозчика о факте хоз жизни. Исходящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNPUDGO_Входящий</Value>
 		<Value>ON_TRNPUDGO_Входящий</Value>
-		<Value/>
+		<Value>Информация грузоотправителя о факте хоз жизни. Входящий</Value>
 	</row>
 	<row>
 		<Value>ON_TRNPUDGO_Исходящий</Value>
 		<Value>ON_TRNPUDGO_Исходящий</Value>
-		<Value/>
+		<Value>Информация грузоотправителя о факте хоз жизни. Исходящий</Value>
+	</row>
+	<row>
+		<Value>DP_UVUTOCH_Входящий</Value>
+		<Value>DP_UVUTOCH_Входящий</Value>
+		<Value>Уведомление об уточнении. Входящий</Value>
+	</row>
+	<row>
+		<Value>DP_UVUTOCH_Исходящий</Value>
+		<Value>DP_UVUTOCH_Исходящий</Value>
+		<Value>Уведомление об уточнении. Исходящий</Value>
 	</row>
 	<row>
 		<Value>ЛОГИРОВАНИЕ</Value>
