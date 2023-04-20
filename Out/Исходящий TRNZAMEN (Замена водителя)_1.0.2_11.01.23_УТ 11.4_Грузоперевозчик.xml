@@ -360,7 +360,7 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
-							<Value xsi:type="xs:string">Документ.ТлфЗамена</Value>
+							<Value xsi:type="xs:string">Документ.ТлфЗаменаСЗ</Value>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -1532,7 +1532,8 @@
  	Результат.Колонки.Добавить("ДатаВыдВУЗаменаСтр"	, Новый ОписаниеТипов("Строка")); 
  	Результат.Колонки.Добавить("ИННФЛЗамена"		, Новый ОписаниеТипов("Строка"));
  	Результат.Колонки.Добавить("СвСпИдПодпЗамена"	, Новый ОписаниеТипов("Строка")); 
- 	Результат.Колонки.Добавить("ТлфЗамена"			, Новый ОписаниеТипов("СписокЗначений"));
+ 	Результат.Колонки.Добавить("ТлфЗамена"			, Новый ОписаниеТипов("Строка"));
+ 	Результат.Колонки.Добавить("ТлфЗаменаСЗ"		, Новый ОписаниеТипов("СписокЗначений"));
  	Результат.Колонки.Добавить("ВодитЗаменаФамилия"	, Новый ОписаниеТипов("Строка"));
  	Результат.Колонки.Добавить("ВодитЗаменаИмя"		, Новый ОписаниеТипов("Строка")); 
  	Результат.Колонки.Добавить("ВодитЗаменаОтчество", Новый ОписаниеТипов("Строка"));
@@ -1638,13 +1639,25 @@
 	 Строка.НалКоорТочВрОтмЗамена = "0";
 	 Строка.ДатаВыдВУЗаменаСтр = Строка(Формат(Строка.ДатаВыдВУЗамена,"ДФ=dd.MM.yyyy"));
 	 Строка.ДатаИспрСтр 	 = Строка(Формат(Строка.ДатаИспр,"ДФ=dd.MM.yyyy"));
-	 Строка.ДатаДокЗаменаСтр =  Строка(Формат(Строка.ДатаДокЗамена,"ДФ=dd.MM.yyyy")); 
+	 Строка.ДатаДокЗаменаСтр =  Строка(Формат(Строка.ДатаДокЗамена,"ДФ=dd.MM.yyyy"));
+	 
+	 //Получаем текст подписи из файла BIN 
+	ДвоичныеДанныеBIN = Строка.Ссылка.ДанныеЭЦП.Получить();
+	ВременныйКаталог = ПутьВременногоКаталога_DR();		
+	ПутьКФайлу 		 = ВременныйКаталог + "Подпись_" + Строка.Номер + ".bin"; //Формат(ТекущаяДата(), "ДФ=yyyyMMddHHmmss") + ".bin"; 
+	ДвоичныеДанныеBIN.Записать(ПутьКФайлу);	
+	Текст = Новый ТекстовыйДокумент;
+	Текст.Прочитать(ПутьКФайлу);		
+	Строка.ЭП = Текст.ПолучитьТекст();	
+	
+	Попытка
+		УдалитьФайлы(ПутьКФайлу);
+	Исключение
+	КонецПопытки; 
 	 
 	 Телефон = Новый СписокЗначений;
-	 Телефон.Добавить("11111");
-	 Телефон.Добавить("22222");
-	 Телефон.Добавить("33333");
-	 Строка.ТлфЗамена = Телефон;
+	 Телефон.Добавить(Строка.ТлфЗамена);
+	 Строка.ТлфЗаменаСЗ = Телефон;
 	 
 	 //Сведения о Подписанте
 	 Попытка
@@ -1655,7 +1668,7 @@
 		 Строка.ФамилияПодп			= Сертификат.ФамилияПодписанта;
 		 Строка.ИмяПодп				= Сертификат.ИмяПодписанта;
 		 Строка.ОтчествоПодп		= Сертификат.ОтчествоПодписанта; 
-		 Строка.ЭП					= Сертификат.ОтпечатокСертификата; 
+		// Строка.ЭП					= Сертификат.ОтпечатокСертификата; 
 	 Исключение
 	 КонецПопытки;
 	 
@@ -1665,7 +1678,7 @@
 		<Value xsi:type="ValueTable"/>
 		<Value xsi:type="ValueListType">
 			<valueType/>
-			<lastId xsi:type="xs:decimal">80</lastId>
+			<lastId xsi:type="xs:decimal">81</lastId>
 			<item>
 				<value xsi:type="xs:string">Ссылка</value>
 				<id xsi:type="xs:decimal">0</id>
@@ -1815,180 +1828,184 @@
 				<id xsi:type="xs:decimal">36</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ВодитЗаменаФамилия</value>
+				<value xsi:type="xs:string">ТлфЗаменаСЗ</value>
 				<id xsi:type="xs:decimal">37</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ВодитЗаменаИмя</value>
+				<value xsi:type="xs:string">ВодитЗаменаФамилия</value>
 				<id xsi:type="xs:decimal">38</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ВодитЗаменаОтчество</value>
+				<value xsi:type="xs:string">ВодитЗаменаИмя</value>
 				<id xsi:type="xs:decimal">39</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДатаДокЗамена</value>
+				<value xsi:type="xs:string">ВодитЗаменаОтчество</value>
 				<id xsi:type="xs:decimal">40</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДатаДокЗаменаСтр</value>
+				<value xsi:type="xs:string">ДатаДокЗамена</value>
 				<id xsi:type="xs:decimal">41</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДопСведДокЗамена</value>
+				<value xsi:type="xs:string">ДатаДокЗаменаСтр</value>
 				<id xsi:type="xs:decimal">42</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ИдДокЗамена</value>
+				<value xsi:type="xs:string">ДопСведДокЗамена</value>
 				<id xsi:type="xs:decimal">43</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">НомерДокЗамена</value>
+				<value xsi:type="xs:string">ИдДокЗамена</value>
 				<id xsi:type="xs:decimal">44</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">НаимДокЗамена</value>
+				<value xsi:type="xs:string">НомерДокЗамена</value>
 				<id xsi:type="xs:decimal">45</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ТСНомСТСЗамена</value>
+				<value xsi:type="xs:string">НаимДокЗамена</value>
 				<id xsi:type="xs:decimal">46</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ТСНомерВИНЗамена</value>
+				<value xsi:type="xs:string">ТСНомСТСЗамена</value>
 				<id xsi:type="xs:decimal">47</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ТСРегНомерЗамена</value>
+				<value xsi:type="xs:string">ТСНомерВИНЗамена</value>
 				<id xsi:type="xs:decimal">48</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ТСТипВладЗамена</value>
+				<value xsi:type="xs:string">ТСРегНомерЗамена</value>
 				<id xsi:type="xs:decimal">49</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПарТСТипЗамена</value>
+				<value xsi:type="xs:string">ТСТипВладЗамена</value>
 				<id xsi:type="xs:decimal">50</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПарТСМаркаЗамена</value>
+				<value xsi:type="xs:string">ПарТСТипЗамена</value>
 				<id xsi:type="xs:decimal">51</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПарТСГрузоподЗамена</value>
+				<value xsi:type="xs:string">ПарТСМаркаЗамена</value>
 				<id xsi:type="xs:decimal">52</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПарТСВместимЗамена</value>
+				<value xsi:type="xs:string">ПарТСГрузоподЗамена</value>
 				<id xsi:type="xs:decimal">53</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПрицепНомСТСЗамена</value>
+				<value xsi:type="xs:string">ПарТСВместимЗамена</value>
 				<id xsi:type="xs:decimal">54</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПрицепНомерВИНЗамена</value>
+				<value xsi:type="xs:string">ПрицепНомСТСЗамена</value>
 				<id xsi:type="xs:decimal">55</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПрицепРегНомерЗамена</value>
+				<value xsi:type="xs:string">ПрицепНомерВИНЗамена</value>
 				<id xsi:type="xs:decimal">56</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПрицепТипВладЗамена</value>
+				<value xsi:type="xs:string">ПрицепРегНомерЗамена</value>
 				<id xsi:type="xs:decimal">57</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПарПрицепТипЗамена</value>
+				<value xsi:type="xs:string">ПрицепТипВладЗамена</value>
 				<id xsi:type="xs:decimal">58</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПарПрицепМаркаЗамена</value>
+				<value xsi:type="xs:string">ПарПрицепТипЗамена</value>
 				<id xsi:type="xs:decimal">59</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПарПрицепГрузоподЗамена</value>
+				<value xsi:type="xs:string">ПарПрицепМаркаЗамена</value>
 				<id xsi:type="xs:decimal">60</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ПарПрицепВместимЗамена</value>
+				<value xsi:type="xs:string">ПарПрицепГрузоподЗамена</value>
 				<id xsi:type="xs:decimal">61</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">НомСРЗамена</value>
+				<value xsi:type="xs:string">ПарПрицепВместимЗамена</value>
 				<id xsi:type="xs:decimal">62</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДатаСРЗамена</value>
+				<value xsi:type="xs:string">НомСРЗамена</value>
 				<id xsi:type="xs:decimal">63</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">СрокСРЗамена</value>
+				<value xsi:type="xs:string">ДатаСРЗамена</value>
 				<id xsi:type="xs:decimal">64</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ИдСРЗамена</value>
+				<value xsi:type="xs:string">СрокСРЗамена</value>
 				<id xsi:type="xs:decimal">65</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">СведМршМршТекстЗамена</value>
+				<value xsi:type="xs:string">ИдСРЗамена</value>
 				<id xsi:type="xs:decimal">66</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">СведМршМршМашЧитЗамена</value>
+				<value xsi:type="xs:string">СведМршМршТекстЗамена</value>
 				<id xsi:type="xs:decimal">67</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДатВрОтметЗамена</value>
+				<value xsi:type="xs:string">СведМршМршМашЧитЗамена</value>
 				<id xsi:type="xs:decimal">68</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДатВрОтметЗаменаСтр</value>
+				<value xsi:type="xs:string">ДатВрОтметЗамена</value>
 				<id xsi:type="xs:decimal">69</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">НалКоорТочВрОтмЗамена</value>
+				<value xsi:type="xs:string">ДатВрОтметЗаменаСтр</value>
 				<id xsi:type="xs:decimal">70</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ОбстОтметЗамена</value>
+				<value xsi:type="xs:string">НалКоорТочВрОтмЗамена</value>
 				<id xsi:type="xs:decimal">71</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">НомерИспр</value>
+				<value xsi:type="xs:string">ОбстОтметЗамена</value>
 				<id xsi:type="xs:decimal">72</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДатаИспр</value>
+				<value xsi:type="xs:string">НомерИспр</value>
 				<id xsi:type="xs:decimal">73</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДатаИспрСтр</value>
+				<value xsi:type="xs:string">ДатаИспр</value>
 				<id xsi:type="xs:decimal">74</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">СтатПодп</value>
+				<value xsi:type="xs:string">ДатаИспрСтр</value>
 				<id xsi:type="xs:decimal">75</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ДолжнПодп</value>
+				<value xsi:type="xs:string">СтатПодп</value>
 				<id xsi:type="xs:decimal">76</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ФамилияПодп</value>
+				<value xsi:type="xs:string">ДолжнПодп</value>
 				<id xsi:type="xs:decimal">77</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ИмяПодп</value>
+				<value xsi:type="xs:string">ФамилияПодп</value>
 				<id xsi:type="xs:decimal">78</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">ОтчествоПодп</value>
+				<value xsi:type="xs:string">ИмяПодп</value>
 				<id xsi:type="xs:decimal">79</id>
 			</item>
 			<item>
-				<value xsi:type="xs:string">НомерПоПорядку</value>
+				<value xsi:type="xs:string">ОтчествоПодп</value>
 				<id xsi:type="xs:decimal">80</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НомерПоПорядку</value>
+				<id xsi:type="xs:decimal">81</id>
 			</item>
 		</Value>
 		<Value xsi:type="ValueListType">
