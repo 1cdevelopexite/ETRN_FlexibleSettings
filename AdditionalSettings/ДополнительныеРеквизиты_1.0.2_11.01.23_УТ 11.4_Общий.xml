@@ -2103,8 +2103,8 @@
 		<Value>Строка</Value>
 		<Value/>
 		<Value>false</Value>
-		<Value>false</Value>
-		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -2649,8 +2649,8 @@
 		<Value>Дата</Value>
 		<Value/>
 		<Value>false</Value>
-		<Value>false</Value>
-		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -2662,8 +2662,8 @@
 		<Value>Булево</Value>
 		<Value/>
 		<Value>false</Value>
-		<Value>false</Value>
-		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
@@ -2675,8 +2675,8 @@
 		<Value>Строка</Value>
 		<Value/>
 		<Value>false</Value>
-		<Value>false</Value>
-		<Value>false</Value>
+		<Value>true</Value>
+		<Value>true</Value>
 		<Value/>
 		<Value/>
 		<Value/>
