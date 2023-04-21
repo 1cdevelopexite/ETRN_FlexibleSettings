@@ -130,7 +130,9 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/> <Value/> </row>
+		<Value/>
+		<Value/>
+	</row>
 	<row>
 		<Value>Валюта</Value>
 		<Value>ГруппаОрганизацияВалюта|Валюта</Value>
@@ -142,7 +144,9 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/> <Value/> </row>
+		<Value/>
+		<Value/>
+	</row>
 	<row>
 		<Value>Грузополучатель</Value>
 		<Value>ГруппаГрузополучатель|Грузополучатель</Value>
@@ -154,7 +158,9 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/> <Value/> </row>
+		<Value/>
+		<Value/>
+	</row>
 	<row>
 		<Value>Грузоотправитель</Value>
 		<Value>ГруппаГрузоотправитель|Грузоотправитель</Value>
