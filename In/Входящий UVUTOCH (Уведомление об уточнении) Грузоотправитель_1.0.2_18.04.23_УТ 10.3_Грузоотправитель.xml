@@ -8,7 +8,7 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">Служебные</Name>
+		<Name xsi:type="xs:string">Кнопка</Name>
 		<ValueType/>
 	</column>
 	<column>
@@ -24,7 +24,7 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">Кнопка</Name>
+		<Name xsi:type="xs:string">Служебные</Name>
 		<ValueType/>
 	</column>
 	<column>
@@ -34,6 +34,10 @@
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
 		<Value xsi:type="xs:string">Входящий UVUTOCH (Уведомление об уточнении) Грузоотправитель</Value>
+		<Value xsi:type="xs:string">Входящий UVUTOCH (Уведомление об уточнении) Грузоотправитель</Value>
+		<Value xsi:nil="true"/>
+		<Value xsi:nil="true"/>
+		<Value xsi:nil="true"/>
 		<Value xsi:type="xs:string">//+
 НоваяЗапись = Приемник.ДополнительныеРеквизиты.Добавить();
 НоваяЗапись.Реквизит = "Организация";
@@ -46,11 +50,7 @@
 
 Приемник.Сообщение = ВернутьЗначениеДопРеквизитаИзДокумента("Документ_СвУведУточ_ТекстУведУточ", Приемник.ДополнительныеРеквизиты);
 
-Приемник.Статус = ПолучитьЗначение_Перечисления("Статусы","Обработан"); </Value>
-		<Value xsi:type="xs:string"/>
-		<Value xsi:type="xs:decimal">0</Value>
-		<Value xsi:type="xs:decimal">0</Value>
-		<Value xsi:type="xs:string">Входящий UVUTOCH (Уведомление об уточнении) Грузоотправитель</Value>
+Приемник.Статус = ПолучитьЗначение_Перечисления("Статусы","Обработан");</Value>
 		<Value xsi:type="ValueListType">
 			<valueType/>
 			<lastId xsi:type="xs:decimal">4</lastId>
