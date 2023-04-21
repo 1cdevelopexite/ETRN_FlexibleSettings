@@ -108,6 +108,17 @@
 		</ValueType>
 		<Width xsi:type="xs:decimal">20</Width>
 	</column>
+	<column>
+		<Name xsi:type="xs:string">СвязанныйРеквизит</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>0</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Width xsi:type="xs:decimal">20</Width>
+	</column>
 	<row>
 		<Value>Организация</Value>
 		<Value>ГруппаОрганизацияВалюта|Организация</Value>

@@ -108,6 +108,17 @@
 		</ValueType>
 		<Width xsi:type="xs:decimal">20</Width>
 	</column>
+	<column>
+		<Name xsi:type="xs:string">СвязанныйРеквизит</Name>
+		<ValueType>
+			<Type>xs:string</Type>
+			<StringQualifiers>
+				<Length>0</Length>
+				<AllowedLength>Variable</AllowedLength>
+			</StringQualifiers>
+		</ValueType>
+		<Width xsi:type="xs:decimal">20</Width>
+	</column>
 	<row>
 		<Value>Организация</Value>
 		<Value>ГруппаОрганизацияВалюта|Организация</Value>
@@ -119,8 +130,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Валюта</Value>
 		<Value>ГруппаОрганизацияВалюта|Валюта</Value>
@@ -132,8 +142,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Грузополучатель</Value>
 		<Value>ГруппаГрузополучатель|Грузополучатель</Value>
@@ -145,8 +154,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Грузоотправитель</Value>
 		<Value>ГруппаГрузоотправитель|Грузоотправитель</Value>
@@ -158,8 +166,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Роль участника обмена</Value>
 		<Value>РольУчастникаОбмена</Value>
@@ -171,8 +178,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Документ 1С</Value>
 		<Value>ГруппаПараметрыЛево|Документ1С</Value>
@@ -184,8 +190,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер ТрН</Value>
 		<Value>ГруппаДокументНакладная|ТранспортнаяНакладнаяНомер</Value>
@@ -197,8 +202,7 @@
 		<Value>Документ_СодИнфГО_НомерТрН</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>от</Value>
 		<Value>ГруппаНакладнаяДата|ТранспортнаяНакладнаяДата</Value>
@@ -210,8 +214,7 @@
 		<Value>Документ_СодИнфГО_ДатаТрН</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер файла XML</Value>
 		<Value>ГруппаДокументФайл|ФайлНомер</Value>
@@ -223,8 +226,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>от</Value>
 		<Value>ГруппаФайлДата|ФайлДата</Value>
@@ -236,8 +238,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Идентификатор основания</Value>
 		<Value>ГруппаИнформацияФайла|ИдентификаторОснования</Value>
@@ -249,8 +250,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>xml Заказчика</Value>
 		<Value>ГруппаXMLУчастниковОбмена|xmlЗаказчик</Value>
@@ -262,8 +262,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>xml Грузоотправителя</Value>
 		<Value>ГруппаXMLУчастниковОбмена|xmlГрузоотправитель</Value>
@@ -275,8 +274,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>xml Грузоперевозчика</Value>
 		<Value>ГруппаXMLУчастниковОбмена|xmlГрузоперевозчик</Value>
@@ -288,8 +286,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>xml Грузополучателя</Value>
 		<Value>ГруппаXMLУчастниковОбмена|xmlГрузополучатель</Value>
@@ -301,8 +298,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Текст ошибки</Value>
 		<Value>ГруппаКомментарий|ТекстОшибки</Value>
@@ -314,8 +310,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Комментарий</Value>
 		<Value>ГруппаКомментарий|Комментарий</Value>
@@ -327,8 +322,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Ответственный</Value>
 		<Value>ГруппаОтветственный|Ответственный</Value>
@@ -340,8 +334,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Заказчик</Value>
 		<Value>ГруппаЗаказчик|Заказчик</Value>
@@ -353,8 +346,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Грузоперевозчик</Value>
 		<Value>ГруппаГрузоперевозчик|Грузоперевозчик</Value>
@@ -366,8 +358,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>xml Доп получатель</Value>
 		<Value>ИныеПолучатели_xmlДопПолучатель</Value>
@@ -379,8 +370,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дополнительный получатель</Value>
 		<Value>ИныеПолучатели_ДопПолучатель</Value>
@@ -392,8 +382,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Сообщение</Value>
 		<Value>Сообщение</Value>
@@ -405,8 +394,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>VIN номер</Value>
 		<Value>ГруппаДанныеТС|ТСНомерВИН</Value>
@@ -418,8 +406,7 @@
 		<Value>Документ_СодИнфГО_СвТС_ТС_НомерВИН</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>VIN номер</Value>
 		<Value>ГруппаДанныеПрицепа|ПрицепНомерВИН</Value>
@@ -431,8 +418,7 @@
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_НомерВИН</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Верхний предел влажности, %</Value>
 		<Value>ГруппаКлиматическийРежим|ВлажнНеВыше</Value>
@@ -444,8 +430,7 @@
 		<Value>Документ_СодИнфГО_УказГО_КлимРеж_ВлажнНеВыше</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Верхний предел температуры</Value>
 		<Value>ГруппаКлиматическийРежим|ТемпНеВыше</Value>
@@ -457,8 +442,7 @@
 		<Value>Документ_СодИнфГО_УказГО_КлимРеж_ТемпНеВыше</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Вместимость, м3</Value>
 		<Value>ГруппаДанныеТС|ПарТСВместим</Value>
@@ -470,8 +454,7 @@
 		<Value>Документ_СодИнфГО_СвТС_ТС_ПарТС_Вместим</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Вместимость, м3</Value>
 		<Value>ГруппаДанныеПрицепа|ПарПрицепВместим</Value>
@@ -483,8 +466,7 @@
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Вместим</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаДатаИВремяДоставкиГрузаПраво|НалКоорТочВрДост</Value>
@@ -496,8 +478,7 @@
 		<Value>Документ_СодИнфГО_УказГО_НалКоорТочВрДост</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаФактическаяДатаПогрузкиПраво|НалКоорТочВрФПогр</Value>
@@ -509,8 +490,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_НалКоорТочВрФПогр</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаЗаявленнаяДатаПраво|НалКоорТочВрЗаяв</Value>
@@ -522,8 +502,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_НалКоорТочВрЗаяв</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаФактическаяДатаУбытияПраво|НалКоорТочВрФУбыт</Value>
@@ -535,8 +514,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_НалКоорТочВрФУбыт</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Грузоподъемность, т</Value>
 		<Value>ГруппаДанныеТС|ПарТСГрузопод</Value>
@@ -548,8 +526,7 @@
 		<Value>Документ_СодИнфГО_СвТС_ТС_ПарТС_Грузопод</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Грузоподъемность, т</Value>
 		<Value>ГруппаДанныеПрицепа|ПарПрицепГрузопод</Value>
@@ -561,8 +538,7 @@
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Грузопод</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата выдачи ВУ</Value>
 		<Value>ГруппаСведенияОВодителе|ДатаВыдВУ</Value>
@@ -574,8 +550,7 @@
 		<Value>Документ_СодИнфГО_СвВодит_ДатаВыдВУ</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата документа</Value>
 		<Value>ГруппаПутевойЛист|ДатаДок</Value>
@@ -587,8 +562,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата и время доставки груза</Value>
 		<Value>ГруппаДатаИВремяДоставкиГрузаЛево|ДатВрДостГр</Value>
@@ -600,8 +574,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата и время подачи ТС под погрузку</Value>
 		<Value>ГруппаЗаявленнаяДатаЛево|ЗаявПогр</Value>
@@ -613,8 +586,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_ЗаявПогр</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата специального разрешения</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвижения|ДатаСР</Value>
@@ -626,8 +598,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дополнительные сведения</Value>
 		<Value>ГруппаПутевойЛист|ДопСведДок</Value>
@@ -639,8 +610,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Запрещение перегрузки</Value>
 		<Value>ГруппаОсобыеУсловияПеревозки|ЗапрПерегруз</Value>
@@ -652,8 +622,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Идентификатор документа</Value>
 		<Value>ГруппаПутевойЛист|ИдДок</Value>
@@ -665,8 +634,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Идентификатор файла специального разрешения</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвижения|ИдСР</Value>
@@ -678,8 +646,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Имя</Value>
 		<Value>ГруппаФИОВодителя|ВодитИмя</Value>
@@ -691,8 +658,7 @@
 		<Value>Документ_СодИнфГО_СвВодит_ФИО_Имя</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>ИНН физического лица</Value>
 		<Value>ГруппаСведенияОВодителе|ИННФЛ</Value>
@@ -704,8 +670,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Иные контактные данные</Value>
 		<Value>ГруппаКонтактыПереадресовки|КонтПАИнКонт</Value>
@@ -717,8 +682,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Количество грузовых мест</Value>
 		<Value>ГруппаИнформацияГрузоотправителя|КолМестПрием</Value>
@@ -730,8 +694,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_КолМестПрием</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Лицо, разрешающее переадресовку</Value>
 		<Value>ГруппаСведенияПереадресовки|ЛицоПА</Value>
@@ -743,8 +706,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Марка</Value>
 		<Value>ГруппаДанныеТС|ПарТСМарка</Value>
@@ -756,8 +718,7 @@
 		<Value>Документ_СодИнфГО_СвТС_ТС_ПарТС_Марка</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Марка</Value>
 		<Value>ГруппаДанныеПрицепа|ПарПрицепМарка</Value>
@@ -769,8 +730,7 @@
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Марка</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Маршрут, машиночитаемый формат</Value>
 		<Value>ГруппаСведенияОМаршруте|МршМашЧит</Value>
@@ -782,8 +742,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Маршрут, машиночитаемый формат</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвижения|СведМршМршМашЧит</Value>
@@ -795,8 +754,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Маршрут, текстовый формат</Value>
 		<Value>ГруппаСведенияОМаршруте|МршТекст</Value>
@@ -808,8 +766,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Маршрут, текстовый формат</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвижения|СведМршМршТекст</Value>
@@ -821,8 +778,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Масса брутто груза</Value>
 		<Value>ГруппаИнформацияГрузоотправителя|МасБрутОтгр</Value>
@@ -834,8 +790,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_МасБрутОтгр</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Метод определения массы груза</Value>
 		<Value>ГруппаИнформацияГрузоотправителя|МетОпрМасс</Value>
@@ -847,8 +802,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_МетОпрМасс</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Наименование документа</Value>
 		<Value>ГруппаПутевойЛист|НаимДок</Value>
@@ -860,8 +814,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Нижний предел влажности, %</Value>
 		<Value>ГруппаКлиматическийРежим|ВлажнНеНиже</Value>
@@ -873,8 +826,7 @@
 		<Value>Документ_СодИнфГО_УказГО_КлимРеж_ВлажнНеНиже</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Нижний предел температуры</Value>
 		<Value>ГруппаКлиматическийРежим|ТемпНеНиже</Value>
@@ -886,8 +838,7 @@
 		<Value>Документ_СодИнфГО_УказГО_КлимРеж_ТемпНеНиже</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер ВУ</Value>
 		<Value>ГруппаСведенияОВодителе|НомВУ</Value>
@@ -899,8 +850,7 @@
 		<Value>Документ_СодИнфГО_СвВодит_НомВУ</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер документа</Value>
 		<Value>ГруппаПутевойЛист|НомерДок</Value>
@@ -912,8 +862,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер специального разрешения</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвижения|НомСР</Value>
@@ -925,8 +874,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер СТС</Value>
 		<Value>ГруппаДанныеТС|ТСНомСТС</Value>
@@ -938,8 +886,7 @@
 		<Value>Документ_СодИнфГО_СвТС_ТС_НомСТС</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер СТС</Value>
 		<Value>ГруппаДанныеПрицепа|ПрицепНомСТС</Value>
@@ -951,8 +898,7 @@
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_НомСТС</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Отчество</Value>
 		<Value>ГруппаФИОВодителя|ВодитОтчество</Value>
@@ -964,8 +910,7 @@
 		<Value>Документ_СодИнфГО_СвВодит_ФИО_Отчество</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Почта</Value>
 		<Value>ГруппаКонтактыПереадресовки|КонтПАЭлПочта</Value>
@@ -977,8 +922,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Регистрационный номер</Value>
 		<Value>ГруппаДанныеТС|ТСРегНомер</Value>
@@ -990,8 +934,7 @@
 		<Value>Документ_СодИнфГО_СвТС_ТС_РегНомер</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Регистрационный номер</Value>
 		<Value>ГруппаДанныеПрицепа|ПрицепРегНомер</Value>
@@ -1003,8 +946,7 @@
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_РегНомер</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Сведения о пломбе</Value>
 		<Value>ГруппаОсобыеУсловияПеревозки|СвПломба</Value>
@@ -1016,8 +958,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Сведения о способе идентификации</Value>
 		<Value>ГруппаСведенияОВодителе|СвСпИдПодп</Value>
@@ -1029,8 +970,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Серия ВУ</Value>
 		<Value>ГруппаСведенияОВодителе|СерВУ</Value>
@@ -1042,8 +982,7 @@
 		<Value>Документ_СодИнфГО_СвВодит_СерВУ</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Склад</Value>
 		<Value>ГруппаСклад|Склад</Value>
@@ -1055,8 +994,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Способ передачи указания на переадресовку</Value>
 		<Value>ГруппаСведенияПереадресовки|СпосПерУкПА</Value>
@@ -1068,8 +1006,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Срок действия специального разрешения</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвижения|СрокСР</Value>
@@ -1081,8 +1018,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Срок доставки груза</Value>
 		<Value>ГруппаГрузДата|СрокДостГр</Value>
@@ -1094,8 +1030,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Телефон</Value>
 		<Value>ГруппаКонтактыПереадресовки|КонтПАТлф</Value>
@@ -1107,8 +1042,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Телефон</Value>
 		<Value>ГруппаСведенияОВодителе|ВодитТлф</Value>
@@ -1120,8 +1054,7 @@
 		<Value>Документ_СодИнфГО_СвВодит_Тлф</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Тип</Value>
 		<Value>ГруппаДанныеТС|ПарТСТип</Value>
@@ -1133,8 +1066,7 @@
 		<Value>Документ_СодИнфГО_СвТС_ТС_ПарТС_Тип</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Тип</Value>
 		<Value>ГруппаДанныеПрицепа|ПарПрицепТип</Value>
@@ -1146,8 +1078,7 @@
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Тип</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Тип владения</Value>
 		<Value>ГруппаДанныеТС|ТСТипВлад</Value>
@@ -1159,8 +1090,7 @@
 		<Value>Документ_СодИнфГО_СвТС_ТС_ТипВлад</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Тип владения</Value>
 		<Value>ГруппаДанныеПрицепа|ПрицепТипВлад</Value>
@@ -1172,8 +1102,7 @@
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ТипВлад</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Указания норм перевозки</Value>
 		<Value>ГруппаОсобыеУсловияПеревозки|УкНормПрвз</Value>
@@ -1185,8 +1114,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Указания ограничения скорости</Value>
 		<Value>ГруппаОсобыеУсловияПеревозки|ОгрСкор</Value>
@@ -1198,8 +1126,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Фактические дата и время прибытия под погрузку</Value>
 		<Value>ГруппаФактическаяДатаПогрузкиЛево|ФДатВрПриб</Value>
@@ -1211,8 +1138,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_ФДатВрПриб</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Фактические дата и время убытия</Value>
 		<Value>ГруппаФактическаяДатаУбытияЛево|ФДатВрУбыт</Value>
@@ -1224,8 +1150,7 @@
 		<Value>Документ_СодИнфГО_СвПогруз_ФДатВрУбыт</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Фактическое состояние кузова</Value>
 		<Value>ГруппаИнформацияГрузоотправителя|ФСостКуз</Value>
@@ -1237,8 +1162,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Фактическое состояние тары</Value>
 		<Value>ГруппаИнформацияГрузоотправителя|ФСостТар</Value>
@@ -1250,8 +1174,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Фактическое состояние упаковки</Value>
 		<Value>ГруппаИнформацияГрузоотправителя|ФСостУп</Value>
@@ -1263,8 +1186,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Фамилия</Value>
 		<Value>ГруппаФИОВодителя|ВодитФамилия</Value>
@@ -1276,8 +1198,7 @@
 		<Value>Документ_СодИнфГО_СвВодит_ФИО_Фамилия</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номенклатура</Value>
 		<Value>СведенияОГрузе_Номенклатура</Value>
@@ -1289,8 +1210,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Описание груза</Value>
 		<Value>СведенияОГрузе_НаимГруз</Value>
@@ -1302,8 +1222,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Состояние груза</Value>
 		<Value>СведенияОГрузе_СостГруз</Value>
@@ -1315,8 +1234,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Способ упаковки</Value>
 		<Value>СведенияОГрузе_СпУпак</Value>
@@ -1328,8 +1246,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Вид тары</Value>
 		<Value>СведенияОГрузе_ВидТар</Value>
@@ -1341,8 +1258,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Количество мест груза</Value>
 		<Value>СведенияОГрузе_КолМестГр</Value>
@@ -1354,8 +1270,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Маркировка</Value>
 		<Value>СведенияОГрузе_Маркировка</Value>
@@ -1367,8 +1282,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Масса нетто</Value>
 		<Value>СведенияОГрузе_МасНетЗнач</Value>
@@ -1380,8 +1294,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Масса брутто</Value>
 		<Value>СведенияОГрузе_МасБрутЗнач</Value>
@@ -1393,8 +1306,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Стоимость</Value>
 		<Value>СведенияОГрузе_СтЦеннГр</Value>
@@ -1406,8 +1318,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>xml Валюта</Value>
 		<Value>СведенияОГрузе_КодОКВ</Value>
@@ -1419,8 +1330,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата отметки</Value>
 		<Value>СведенияШтрафов_ДатВрОтмет</Value>
@@ -1432,8 +1342,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Описание обстоятельств</Value>
 		<Value>СведенияШтрафов_ОбстОтмет</Value>
@@ -1445,8 +1354,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Отметки акта взвешивания</Value>
 		<Value>СведенияШтрафов_ОтмАктВзв</Value>
@@ -1458,8 +1366,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата курса валют</Value>
 		<Value>СведенияШтрафов_ДатаКурсВал</Value>
@@ -1471,8 +1378,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Итоговый размер штрафа иностранная валюта</Value>
 		<Value>СведенияШтрафов_ИтогРазмШтрИн</Value>
@@ -1484,8 +1390,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Итоговый размер штрафа РФ</Value>
 		<Value>СведенияШтрафов_ИтогРазмШтрРФ</Value>
@@ -1497,8 +1402,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Валюта код ОКВ</Value>
 		<Value>СведенияШтрафов_КодОКВ</Value>
@@ -1510,8 +1414,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Валюта курс</Value>
 		<Value>СведенияШтрафов_КурсВал</Value>
@@ -1523,8 +1426,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Валюта наименование ОКВ</Value>
 		<Value>СведенияШтрафов_НаимОКВ</Value>
@@ -1536,8 +1438,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Способ расчета</Value>
 		<Value>СведенияШтрафов_РасчШтр</Value>
@@ -1549,8 +1450,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Количество единиц</Value>
 		<Value>СведенияШтрафов_ФактКолЕдИзм</Value>
@@ -1562,8 +1462,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата отметки</Value>
 		<Value>СведенияИныхАктов_ДатВрОтмет</Value>
@@ -1575,8 +1474,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Описание обстоятельств</Value>
 		<Value>СведенияИныхАктов_ОбстОтмет</Value>
@@ -1588,8 +1486,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата акта</Value>
 		<Value>СведенияИныхАктов_ДатаДок</Value>
@@ -1601,8 +1498,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Отметки акта взвешивания</Value>
 		<Value>СведенияИныхАктов_ОтмАктВзв</Value>
@@ -1614,8 +1510,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дополнительные сведения</Value>
 		<Value>СведенияИныхАктов_ДопСведДок</Value>
@@ -1627,8 +1522,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>ИД Документа</Value>
 		<Value>СведенияИныхАктов_ИдДок</Value>
@@ -1640,8 +1534,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Наименование документа</Value>
 		<Value>СведенияИныхАктов_НаимДок</Value>
@@ -1653,8 +1546,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер документа</Value>
 		<Value>СведенияИныхАктов_НомерДок</Value>
@@ -1666,8 +1558,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата отметки</Value>
 		<Value>СведенияАктовВзвешивания_ДатВрОтмет</Value>
@@ -1679,8 +1570,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Описание обстоятельств</Value>
 		<Value>СведенияАктовВзвешивания_ОбстОтмет</Value>
@@ -1692,8 +1582,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата акта</Value>
 		<Value>СведенияАктовВзвешивания_ДатаДок</Value>
@@ -1705,8 +1594,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дополнительные сведения</Value>
 		<Value>СведенияАктовВзвешивания_ДопСведДок</Value>
@@ -1718,8 +1606,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>ИД Документа</Value>
 		<Value>СведенияАктовВзвешивания_ИдДок</Value>
@@ -1731,8 +1618,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Наименование документа</Value>
 		<Value>СведенияАктовВзвешивания_НаимДок</Value>
@@ -1744,8 +1630,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер документа</Value>
 		<Value>СведенияАктовВзвешивания_НомерДок</Value>
@@ -1757,8 +1642,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата и время прибытия под выгрузку</Value>
 		<Value>ГруппаЗаявленнаяДатаПрибытияЛево|ЗаявДатВрПриб</Value>
@@ -1770,8 +1654,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаЗаявленнаяДатаПрибытияПраво|НалКоорТочВрЗПр</Value>
@@ -1783,8 +1666,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Оговорки и замечания в отношении фактических даты и времени прибытия</Value>
 		<Value>ГруппаЗаявленнаяДатаОговоркаЛево|ЗамДатВрПриб</Value>
@@ -1796,8 +1678,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаЗаявленнаяДатаОговоркаПраво|НалКоорТочВрПрб</Value>
@@ -1809,8 +1690,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Оговорки и замечания в отношении фактических даты и времени убытия</Value>
 		<Value>ГруппаФактическаяДатаУбытияОговоркаЛево|ЗамДатВрУбыт</Value>
@@ -1822,8 +1702,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаФактическаяДатаУбытияОговоркаПраво|НалКоорТочВрУб</Value>
@@ -1835,8 +1714,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Оговорки и замечания в отношении фактических даты и времени постановки на погрузку</Value>
 		<Value>ГруппаФактическаяДатаПогрузкиОговоркаЛево|ЗамДатВрПосПрием</Value>
@@ -1848,8 +1726,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаФактическаяДатаПогрузкиОговоркаПраво|НалКоорТочВрПрм</Value>
@@ -1861,8 +1738,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Оговорки и замечания в отношении фактического состояния груза</Value>
 		<Value>ГруппаЗамечанияПеревозчика|ЗамСостГруз</Value>
@@ -1874,8 +1750,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Оговорки и замечания в отношении массы груза</Value>
 		<Value>ГруппаЗамечанияПеревозчика|ЗамМасс</Value>
@@ -1887,8 +1762,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Оговорки и замечания в отношении количества грузовых мест</Value>
 		<Value>ГруппаЗамечанияПеревозчика|ЗамКолМест</Value>
@@ -1900,8 +1774,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Оговорки и замечания в отношении проведения погрузочных работ</Value>
 		<Value>ГруппаЗамечанияПеревозчика|ЗамПогрРаб</Value>
@@ -1913,8 +1786,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Оговорки и замечания в отношении фактической даты и времени постановки на выгрузку</Value>
 		<Value>ГруппаФактическаяДатаВыгрузкиОговоркаЛево|ЗамДатВрПосВыгр</Value>
@@ -1926,8 +1798,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаФактическаяДатаВыгрузкиОговоркаЛево|НалКоорТочВрВыгр</Value>
@@ -1939,8 +1810,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Новые дата и время подачи ТС под выгрузку</Value>
 		<Value>ГруппаНоваяДатаВыгрузкиЛево|ДатВрНовВыгрПА</Value>
@@ -1952,8 +1822,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаНоваяДатаВыгрузкиПраво|НалКоорТочВрВгрПА</Value>
@@ -1965,8 +1834,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Код страны</Value>
 		<Value>ГруппаНовыйПунктВыгрузки|КодСтр</Value>
@@ -1978,8 +1846,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Адрес</Value>
 		<Value>ГруппаНовыйПунктВыгрузки|АдрТекст</Value>
@@ -1991,8 +1858,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Уникальный номер адреса в государственном адресном реестре</Value>
 		<Value>ГруппаНовыйПунктВыгрузки|КодГАР</Value>
@@ -2004,8 +1870,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата и время отметки</Value>
 		<Value>ГруппаДатаИВремяОтметкиЛево|ДатВрОтмет</Value>
@@ -2017,8 +1882,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаДатаИВремяОтметкиПраво|НалКоорТочВрОтм</Value>
@@ -2030,8 +1894,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Описание обстоятельств</Value>
 		<Value>ГруппаОснованиеПереадресовки|ОбстОтмет</Value>
@@ -2043,8 +1906,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер исправления</Value>
 		<Value>ГруппаИнформацияОЗамене|НомерИспр</Value>
@@ -2056,8 +1918,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата исправления</Value>
 		<Value>ГруппаИнформацияОЗамене|ДатаИспр</Value>
@@ -2069,8 +1930,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Причина замены</Value>
 		<Value>ГруппаПричинаЗамены|ПричЗамТекст</Value>
@@ -2082,8 +1942,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер ВУ</Value>
 		<Value>ГруппаСведенияОНовомВодителе|НомВУЗамена</Value>
@@ -2095,8 +1954,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Серия ВУ</Value>
 		<Value>ГруппаСведенияОНовомВодителе|СерВУЗамена</Value>
@@ -2108,8 +1966,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата выдачи ВУ</Value>
 		<Value>ГруппаСведенияОНовомВодителе|ДатаВыдВУЗамена</Value>
@@ -2121,8 +1978,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>ИНН физического лица</Value>
 		<Value>ГруппаСведенияОНовомВодителе|ИННФЛЗамена</Value>
@@ -2134,8 +1990,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Сведения о способе идентификации</Value>
 		<Value>ГруппаСведенияОНовомВодителе|СвСпИдПодпЗамена</Value>
@@ -2147,8 +2002,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер телефона</Value>
 		<Value>ГруппаСведенияОНовомВодителе|ТлфЗамена</Value>
@@ -2160,8 +2014,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Фамилия</Value>
 		<Value>ГруппаФИОВодителяЗамена|ВодитЗаменаФамилия</Value>
@@ -2173,8 +2026,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Имя</Value>
 		<Value>ГруппаФИОВодителяЗамена|ВодитЗаменаИмя</Value>
@@ -2186,8 +2038,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Отчество</Value>
 		<Value>ГруппаФИОВодителяЗамена|ВодитЗаменаОтчество</Value>
@@ -2199,8 +2050,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата документа</Value>
 		<Value>ГруппаПутевойЛистЗамена|ДатаДокЗамена</Value>
@@ -2212,8 +2062,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дополнительные сведения</Value>
 		<Value>ГруппаПутевойЛистЗамена|ДопСведДокЗамена</Value>
@@ -2225,8 +2074,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Идентификатор документа</Value>
 		<Value>ГруппаПутевойЛистЗамена|ИдДокЗамена</Value>
@@ -2238,8 +2086,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер документа</Value>
 		<Value>ГруппаПутевойЛистЗамена|НомерДокЗамена</Value>
@@ -2251,8 +2098,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Наименование документа</Value>
 		<Value>ГруппаПутевойЛистЗамена|НаимДокЗамена</Value>
@@ -2264,8 +2110,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>VIN номер</Value>
 		<Value>ГруппаДанныеТСЗамена|ТСНомерВИНЗамена</Value>
@@ -2277,8 +2122,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>VIN номер</Value>
 		<Value>ГруппаДанныеПрицепаЗамена|ПрицепНомерВИНЗамена</Value>
@@ -2290,8 +2134,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Вместимость, м3</Value>
 		<Value>ГруппаДанныеТСЗамена|ПарТСВместимЗамена</Value>
@@ -2303,8 +2146,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Вместимость, м3</Value>
 		<Value>ГруппаДанныеПрицепаЗамена|ПарПрицепВместимЗамена</Value>
@@ -2316,8 +2158,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Грузоподъемность, т</Value>
 		<Value>ГруппаДанныеТСЗамена|ПарТСГрузоподЗамена</Value>
@@ -2329,8 +2170,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Грузоподъемность, т</Value>
 		<Value>ГруппаДанныеПрицепаЗамена|ПарПрицепГрузоподЗамена</Value>
@@ -2342,8 +2182,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата специального разрешения</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвиженияЗамена|ДатаСРЗамена</Value>
@@ -2355,8 +2194,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Идентификатор файла специального разрешения</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвиженияЗамена|ИдСРЗамена</Value>
@@ -2368,8 +2206,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Марка</Value>
 		<Value>ГруппаДанныеТСЗамена|ПарТСМаркаЗамена</Value>
@@ -2381,8 +2218,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Марка</Value>
 		<Value>ГруппаДанныеПрицепаЗамена|ПарПрицепМаркаЗамена</Value>
@@ -2394,8 +2230,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Маршрут, машиночитаемый формат</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвиженияЗамена|СведМршМршМашЧитЗамена</Value>
@@ -2407,8 +2242,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Маршрут, текстовый формат</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвиженияЗамена|СведМршМршТекстЗамена</Value>
@@ -2420,8 +2254,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер специального разрешения</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвиженияЗамена|НомСРЗамена</Value>
@@ -2433,8 +2266,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер СТС</Value>
 		<Value>ГруппаДанныеТСЗамена|ТСНомСТСЗамена</Value>
@@ -2446,8 +2278,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер СТС</Value>
 		<Value>ГруппаДанныеПрицепаЗамена|ПрицепНомСТСЗамена</Value>
@@ -2459,8 +2290,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Регистрационный номер</Value>
 		<Value>ГруппаДанныеТСЗамена|ТСРегНомерЗамена</Value>
@@ -2472,8 +2302,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Регистрационный номер</Value>
 		<Value>ГруппаДанныеПрицепаЗамена|ПрицепРегНомерЗамена</Value>
@@ -2485,8 +2314,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Срок действия специального разрешения</Value>
 		<Value>ГруппаСведенияОСпецУсловияхДвиженияЗамена|СрокСРЗамена</Value>
@@ -2498,8 +2326,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Тип</Value>
 		<Value>ГруппаДанныеТСЗамена|ПарТСТипЗамена</Value>
@@ -2511,8 +2338,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Тип</Value>
 		<Value>ГруппаДанныеПрицепаЗамена|ПарПрицепТипЗамена</Value>
@@ -2524,8 +2350,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Тип владения</Value>
 		<Value>ГруппаДанныеТСЗамена|ТСТипВладЗамена</Value>
@@ -2537,8 +2362,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Тип владения</Value>
 		<Value>ГруппаДанныеПрицепаЗамена|ПрицепТипВладЗамена</Value>
@@ -2550,8 +2374,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Наименование документа</Value>
 		<Value>ГруппаОснованиеПереадресовки|ОснПАНаимДок</Value>
@@ -2563,8 +2386,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Номер документа</Value>
 		<Value>ГруппаОснованиеПереадресовки|ОснПАНомерДок</Value>
@@ -2576,8 +2398,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата документа</Value>
 		<Value>ГруппаОснованиеПереадресовки|ОснПАДатаДок</Value>
@@ -2589,8 +2410,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Идентификатор файла</Value>
 		<Value>ГруппаОснованиеПереадресовки|ОснПАИдДок</Value>
@@ -2602,8 +2422,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дополнительные сведения</Value>
 		<Value>ГруппаОснованиеПереадресовки|ОснПАДопСведДок</Value>
@@ -2615,8 +2434,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Дата и время отметки</Value>
 		<Value>ГруппаДатаИВремяОтметкиЗаменыЛево|ДатВрОтметЗамена</Value>
@@ -2628,8 +2446,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>время UTC</Value>
 		<Value>ГруппаДатаИВремяОтметкиЗаменыПраво|НалКоорТочВрОтмЗамена</Value>
@@ -2641,8 +2458,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Описание обстоятельств</Value>
 		<Value>ГруппаСведенияОбОтметкахЗамены|ОбстОтметЗамена</Value>
@@ -2654,8 +2470,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Актуальный</Value>
 		<Value>Актуальный</Value>
@@ -2667,8 +2482,7 @@
 		<Value/>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Идентификатор ТрН</Value>
 		<Value>ГруппаИнформацияФайла|УИдТрН</Value>
@@ -2693,8 +2507,7 @@
 		<Value>Документ_СодИнфГО_ИдЗак_ЭП</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>ДатФайлЗак</Value>
 		<Value>ДатФайлЗак</Value>
@@ -2706,8 +2519,7 @@
 		<Value>Документ_СодИнфГО_ИдЗак_ДатФайлЗак</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>ВрФайлЗак</Value>
 		<Value>ВрФайлЗак</Value>
@@ -2719,8 +2531,7 @@
 		<Value>Документ_СодИнфГО_ИдЗак_ВрФайлЗак</Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>ВидДокумента</Value>
 		<Value>ВидДокумента</Value>
@@ -2732,8 +2543,7 @@
 		<Value></Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 	<row>
 		<Value>Статус</Value>
 		<Value>Статус</Value>
@@ -2745,6 +2555,5 @@
 		<Value></Value>
 		<Value/>
 		<Value/>
-		<Value/>
-	</row>
+		<Value/> <Value/> </row>
 </ValueTable>
