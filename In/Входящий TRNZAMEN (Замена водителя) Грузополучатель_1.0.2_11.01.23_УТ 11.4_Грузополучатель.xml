@@ -33,13 +33,13 @@
 	</column>
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
-		<Value xsi:type="xs:string">Входящий TRNZAMEN (Замена водителя) Грузоотправитель</Value>
+		<Value xsi:type="xs:string">Входящий TRNZAMEN (Замена водителя) Грузополучатель</Value>
 		<Value xsi:type="xs:string">ДополнительныеРеквизиты = Приемник.ДополнительныеРеквизиты.Выгрузить();
 
 //+
 НоваяЗапись = Приемник.ДополнительныеРеквизиты.Добавить();
 НоваяЗапись.Реквизит = "Организация";
-НоваяЗапись.Значение = ВернутьЗначениеДопРеквизитаИзДокумента("Грузоотправитель", ДополнительныеРеквизиты);
+НоваяЗапись.Значение = ВернутьЗначениеДопРеквизитаИзДокумента("Грузополучатель", ДополнительныеРеквизиты);
 
 НоваяЗапись = Приемник.ДополнительныеРеквизиты.Добавить();
 НоваяЗапись.Реквизит = "Заказчик";
@@ -92,7 +92,7 @@
 		<Value xsi:type="xs:string"/>
 		<Value xsi:type="xs:decimal">0</Value>
 		<Value xsi:type="xs:decimal">0</Value>
-		<Value xsi:type="xs:string">Входящий ON_TRNZAMEN (Замена водителя), Грузоотправитель</Value>
+		<Value xsi:type="xs:string">Входящий ON_TRNZAMEN (Замена водителя), Грузополучатель</Value>
 		<Value xsi:type="ValueListType">
 			<valueType/>
 			<lastId xsi:type="xs:decimal">4</lastId>
@@ -106,16 +106,16 @@
 			</item>
 			<item>
 				<value xsi:type="xs:string">Грузополучатель</value>
+				<checkState>1</checkState>				
 				<id xsi:type="xs:decimal">2</id>
 			</item>
 			<item>
 				<value xsi:type="xs:string">Грузоотправитель</value>
-				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">3</id>
 			</item>
 			<item>
 				<value xsi:type="xs:string">ИмяКнопки</value>
-				<presentation>Входящий ON_TRNZAMEN (Замена водителя), Грузоотправитель</presentation>
+				<presentation>Входящий ON_TRNZAMEN (Замена водителя), Грузополучатель</presentation>
 				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">4</id>
 			</item>

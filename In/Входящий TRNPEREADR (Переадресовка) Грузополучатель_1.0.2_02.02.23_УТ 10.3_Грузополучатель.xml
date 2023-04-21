@@ -25,8 +25,8 @@
 	</column>
 	<row>
 		<Value xsi:type="xs:boolean">true</Value>
-		<Value xsi:type="xs:string">Входящий TRNPEREADR (Переадресовка) Грузоотправитель</Value>
-		<Value xsi:type="xs:string">Входящий ON_TRNPEREADR (Переадресовка), Грузоотправитель</Value>
+		<Value xsi:type="xs:string">Входящий TRNPEREADR (Переадресовка) Грузополучатель</Value>
+		<Value xsi:type="xs:string">Входящий ON_TRNPEREADR (Переадресовка), Грузополучатель</Value>
 		<Value xsi:type="xs:string"/>
 		<Value xsi:type="xs:string">ДополнительныеРеквизиты = Приемник.ДополнительныеРеквизиты.Выгрузить();
 		
@@ -96,16 +96,16 @@
 			</item>
 			<item>
 				<value xsi:type="xs:string">Грузополучатель</value>
+				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">2</id>
 			</item>
 			<item>
 				<value xsi:type="xs:string">Грузоотправитель</value>
-				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">3</id>
 			</item>
 			<item>
 				<value xsi:type="xs:string">ИмяКнопки</value>
-				<presentation>Входящий ON_TRNPEREADR (Переадресовка), Грузоотправитель</presentation>
+				<presentation>Входящий ON_TRNPEREADR (Переадресовка), Грузополучатель</presentation>
 				<checkState>1</checkState>
 				<id xsi:type="xs:decimal">4</id>
 			</item>
