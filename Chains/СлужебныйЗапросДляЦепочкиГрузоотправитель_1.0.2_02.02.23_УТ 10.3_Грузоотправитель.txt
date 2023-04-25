@@ -115,12 +115,12 @@
                |ВЫБРАТЬ
                |	РеализацияТоваровУслуг.Ссылка КАК ДокументОснование,
                |	Статус_ON_TRNACLGROT_Исходящий.Ссылка КАК ON_TRNACLGROT,
+               |	ВТ_DP_UVUTOCH.Ссылка КАК DP_UVUTOCH,
                |	ВТ_ON_TRNACLPPRIN.Ссылка КАК ON_TRNACLPPRIN,
-               |	ВТ_ON_TRNACLGRPO.Ссылка КАК ON_TRNACLGRPO,
-               |	ВТ_ON_TRNACLPVYN.Ссылка КАК ON_TRNACLPVYN,
                |	ВТ_ON_TRNPEREADR.Ссылка КАК ON_TRNPEREADR,
                |	ВТ_ON_TRNZAMEN.Ссылка КАК ON_TRNZAMEN,
-               |	ВТ_DP_UVUTOCH.Ссылка КАК DP_UVUTOCH
+               |	ВТ_ON_TRNACLGRPO.Ссылка КАК ON_TRNACLGRPO,
+               |	ВТ_ON_TRNACLPVYN.Ссылка КАК ON_TRNACLPVYN
                |ИЗ
                |	Документ.РеализацияТоваровУслуг КАК РеализацияТоваровУслуг
                |		ЛЕВОЕ СОЕДИНЕНИЕ Документ.DR_Документы КАК Статус_ON_TRNACLGROT_Исходящий

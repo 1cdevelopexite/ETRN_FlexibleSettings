@@ -91,10 +91,10 @@
 |ВЫБРАТЬ
 |	Статус_ON_TRNACLGROT_Входящий.Ссылка КАК ON_TRNACLGROT,
 |	ВТ_ON_TRNACLPPRIN.Ссылка КАК ON_TRNACLPPRIN,
-|	ВТ_ON_TRNACLGRPO.Ссылка КАК ON_TRNACLGRPO,
-|	ВТ_ON_TRNACLPVYN.Ссылка КАК ON_TRNACLPVYN,
 |	ВТ_ON_TRNPEREADR.Ссылка КАК ON_TRNPEREADR,
-|	ВТ_ON_TRNZAMEN.Ссылка КАК ON_TRNZAMEN
+|	ВТ_ON_TRNZAMEN.Ссылка КАК ON_TRNZAMEN,
+|	ВТ_ON_TRNACLGRPO.Ссылка КАК ON_TRNACLGRPO,
+|	ВТ_ON_TRNACLPVYN.Ссылка КАК ON_TRNACLPVYN
 |ИЗ
 |	Документ.DR_Документы КАК Статус_ON_TRNACLGROT_Входящий
 |		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ON_TRNACLPPRIN КАК ВТ_ON_TRNACLPPRIN
