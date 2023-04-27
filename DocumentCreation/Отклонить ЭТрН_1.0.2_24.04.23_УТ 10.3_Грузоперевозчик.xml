@@ -52,7 +52,7 @@
 		<Value xsi:nil="true"/>
 		<Value xsi:nil="true"/>
 		<Value xsi:nil="true"/>
-		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:string">DP_UVUTOCH</Value>
 		<Value xsi:type="xs:string">Если ЗначениеЗаполнено(Источник) Тогда 
 
 	ПродолжитьОбработку = Истина;
