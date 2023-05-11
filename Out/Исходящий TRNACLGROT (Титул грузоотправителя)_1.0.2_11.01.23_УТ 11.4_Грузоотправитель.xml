@@ -97,7 +97,7 @@
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">ИННЮЛ</Value>
-						<Value xsi:nil="true"/>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
@@ -3544,7 +3544,7 @@
 			<Value xsi:type="xs:string"/>
 			<Value xsi:type="xs:string"/>
 			<Value xsi:type="xs:string">Документ</Value>
-			<Value xsi:nil="true"/>
+			<Value xsi:type="xs:string"/>
 			<Value xsi:type="ValueListType">
 				<valueType/>
 				<lastId xsi:type="xs:decimal">9</lastId>
@@ -3732,7 +3732,6 @@
  |	Перевозчик_GUID.Ссылка.КПП КАК ГрузоперевозчикКПП,
  |	Заказчик_GUID.Ссылка.КПП КАК ЗаказчикКПП,
  |	Грузоотправитель_GUID.GUID КАК Грузоотправитель_GUID,
- |	Грузоотправитель_GUID.ОператорЭДО.Идентификатор КАК Грузоотправитель_ОператорЭДО_Ид,
  |	Грузоотправитель_GUID.Адрес_Город КАК ГородГО,
  |	Грузоотправитель_GUID.Адрес_Дом КАК ДомГО,
  |	Грузоотправитель_GUID.Адрес_Индекс КАК ИндексГО,
@@ -3746,7 +3745,6 @@
  |	Грузоотправитель_GUID.Адрес_ЯвляетсяИностранным КАК ЯвляетсяИностраннымГО,
  |	Грузоотправитель_GUID.Ссылка.Представление КАК ПредставлениеГрузоотправителя,
  |	Заказчик_GUID.GUID КАК Заказчик_GUID,
- |	Заказчик_GUID.ОператорЭДО.Идентификатор КАК Заказчик_ОператорЭДО_Ид,
  |	Заказчик_GUID.Адрес_Город КАК ГородЗАК,
  |	Заказчик_GUID.Адрес_Дом КАК ДомЗАК,
  |	Заказчик_GUID.Адрес_Индекс КАК ИндексЗАК,
@@ -3760,7 +3758,6 @@
  |	Заказчик_GUID.Адрес_ЯвляетсяИностранным КАК ЯвляетсяИностраннымЗАК,
  |	Заказчик_GUID.Ссылка.Представление КАК ПредставлениеЗаказчика,
  |	Грузополучатель_GUID.GUID КАК Грузополучатель_GUID,
- |	Грузополучатель_GUID.ОператорЭДО.Идентификатор КАК Грузополучатель_ОператорЭДО_Ид,
  |	Грузополучатель_GUID.Адрес_Город КАК ГородГП,
  |	Грузополучатель_GUID.Адрес_Дом КАК ДомГП,
  |	Грузополучатель_GUID.Адрес_Индекс КАК ИндексГП,
@@ -3774,7 +3771,6 @@
  |	Грузополучатель_GUID.Адрес_ЯвляетсяИностранным КАК ЯвляетсяИностраннымГП,
  |	Грузополучатель_GUID.Ссылка.Представление КАК ПредставлениеГрузополучателя,
  |	Перевозчик_GUID.GUID КАК Перевозчик_GUID,
- |	Перевозчик_GUID.ОператорЭДО.Идентификатор КАК Перевозчик_ОператорЭДО_Ид,
  |	Перевозчик_GUID.Адрес_Город КАК ГородПЕР,
  |	Перевозчик_GUID.Адрес_Дом КАК ДомПЕР,
  |	Перевозчик_GUID.Адрес_Индекс КАК ИндексПЕР,
@@ -4314,10 +4310,778 @@
 		<Value xsi:type="ValueTable"/>
 		<Value xsi:type="ValueListType">
 			<valueType/>
-			<lastId xsi:type="xs:decimal">0</lastId>
+			<lastId xsi:type="xs:decimal">192</lastId>
+			<item>
+				<value xsi:type="xs:string">Ссылка</value>
+				<id xsi:type="xs:decimal">0</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДополнительныеРеквизиты</value>
+				<id xsi:type="xs:decimal">1</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Номер</value>
+				<id xsi:type="xs:decimal">2</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИдентификаторДокумента</value>
+				<id xsi:type="xs:decimal">3</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВидДокумента</value>
+				<id xsi:type="xs:decimal">4</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Организация</value>
+				<id xsi:type="xs:decimal">5</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Заказчик</value>
+				<id xsi:type="xs:decimal">6</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Грузоотправитель</value>
+				<id xsi:type="xs:decimal">7</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Грузополучатель</value>
+				<id xsi:type="xs:decimal">8</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Перевозчик</value>
+				<id xsi:type="xs:decimal">9</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГрузоотправительИНН</value>
+				<id xsi:type="xs:decimal">10</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГрузополучательИНН</value>
+				<id xsi:type="xs:decimal">11</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГрузоперевозчикИНН</value>
+				<id xsi:type="xs:decimal">12</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЗаказчикИНН</value>
+				<id xsi:type="xs:decimal">13</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГрузоотправительКПП</value>
+				<id xsi:type="xs:decimal">14</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГрузополучательКПП</value>
+				<id xsi:type="xs:decimal">15</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГрузоперевозчикКПП</value>
+				<id xsi:type="xs:decimal">16</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЗаказчикКПП</value>
+				<id xsi:type="xs:decimal">17</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Грузоотправитель_GUID</value>
+				<id xsi:type="xs:decimal">18</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГородГО</value>
+				<id xsi:type="xs:decimal">19</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДомГО</value>
+				<id xsi:type="xs:decimal">20</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИндексГО</value>
+				<id xsi:type="xs:decimal">21</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИностранныйАдресГО</value>
+				<id xsi:type="xs:decimal">22</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КвартГО</value>
+				<id xsi:type="xs:decimal">23</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КодРегионГО</value>
+				<id xsi:type="xs:decimal">24</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КорпусГО</value>
+				<id xsi:type="xs:decimal">25</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаселПунктГО</value>
+				<id xsi:type="xs:decimal">26</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">РайонГО</value>
+				<id xsi:type="xs:decimal">27</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">УлицаГО</value>
+				<id xsi:type="xs:decimal">28</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЯвляетсяИностраннымГО</value>
+				<id xsi:type="xs:decimal">29</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПредставлениеГрузоотправителя</value>
+				<id xsi:type="xs:decimal">30</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Заказчик_GUID</value>
+				<id xsi:type="xs:decimal">31</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГородЗАК</value>
+				<id xsi:type="xs:decimal">32</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДомЗАК</value>
+				<id xsi:type="xs:decimal">33</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИндексЗАК</value>
+				<id xsi:type="xs:decimal">34</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИностранныйАдресЗАК</value>
+				<id xsi:type="xs:decimal">35</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КвартЗАК</value>
+				<id xsi:type="xs:decimal">36</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КодРегионЗАК</value>
+				<id xsi:type="xs:decimal">37</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КорпусЗАК</value>
+				<id xsi:type="xs:decimal">38</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаселПунктЗАК</value>
+				<id xsi:type="xs:decimal">39</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">РайонЗАК</value>
+				<id xsi:type="xs:decimal">40</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">УлицаЗАК</value>
+				<id xsi:type="xs:decimal">41</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЯвляетсяИностраннымЗАК</value>
+				<id xsi:type="xs:decimal">42</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПредставлениеЗаказчика</value>
+				<id xsi:type="xs:decimal">43</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Грузополучатель_GUID</value>
+				<id xsi:type="xs:decimal">44</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГородГП</value>
+				<id xsi:type="xs:decimal">45</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДомГП</value>
+				<id xsi:type="xs:decimal">46</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИндексГП</value>
+				<id xsi:type="xs:decimal">47</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИностранныйАдресГП</value>
+				<id xsi:type="xs:decimal">48</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КвартГП</value>
+				<id xsi:type="xs:decimal">49</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КодРегионГП</value>
+				<id xsi:type="xs:decimal">50</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КорпусГП</value>
+				<id xsi:type="xs:decimal">51</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаселПунктГП</value>
+				<id xsi:type="xs:decimal">52</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">РайонГП</value>
+				<id xsi:type="xs:decimal">53</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">УлицаГП</value>
+				<id xsi:type="xs:decimal">54</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЯвляетсяИностраннымГП</value>
+				<id xsi:type="xs:decimal">55</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПредставлениеГрузополучателя</value>
+				<id xsi:type="xs:decimal">56</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Перевозчик_GUID</value>
+				<id xsi:type="xs:decimal">57</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГородПЕР</value>
+				<id xsi:type="xs:decimal">58</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДомПЕР</value>
+				<id xsi:type="xs:decimal">59</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИндексПЕР</value>
+				<id xsi:type="xs:decimal">60</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИностранныйАдресПЕР</value>
+				<id xsi:type="xs:decimal">61</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КвартПЕР</value>
+				<id xsi:type="xs:decimal">62</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КодРегионПЕР</value>
+				<id xsi:type="xs:decimal">63</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КорпусПЕР</value>
+				<id xsi:type="xs:decimal">64</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаселПунктПЕР</value>
+				<id xsi:type="xs:decimal">65</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">РайонПЕР</value>
+				<id xsi:type="xs:decimal">66</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">УлицаПЕР</value>
+				<id xsi:type="xs:decimal">67</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЯвляетсяИностраннымПЕР</value>
+				<id xsi:type="xs:decimal">68</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПредставлениеГрузоперевозчика</value>
+				<id xsi:type="xs:decimal">69</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИдФайл</value>
+				<id xsi:type="xs:decimal">70</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИдФайлЗак</value>
+				<id xsi:type="xs:decimal">71</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВерсПрог</value>
+				<id xsi:type="xs:decimal">72</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВерсФорм</value>
+				<id xsi:type="xs:decimal">73</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИмяФайла</value>
+				<id xsi:type="xs:decimal">74</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИдПолИной</value>
+				<id xsi:type="xs:decimal">75</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КНД</value>
+				<id xsi:type="xs:decimal">76</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПоФактХЖ</value>
+				<id xsi:type="xs:decimal">77</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатИнфГО</value>
+				<id xsi:type="xs:decimal">78</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВрИнфГО</value>
+				<id xsi:type="xs:decimal">79</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимЭкСубСост</value>
+				<id xsi:type="xs:decimal">80</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимДокУЧАСТ</value>
+				<id xsi:type="xs:decimal">81</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НомерДокУЧАСТ</value>
+				<id xsi:type="xs:decimal">82</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатаДокУЧАСТ</value>
+				<id xsi:type="xs:decimal">83</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИдДокУЧАСТ</value>
+				<id xsi:type="xs:decimal">84</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДопСведДокУЧАСТ</value>
+				<id xsi:type="xs:decimal">85</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">УИДТрН</value>
+				<id xsi:type="xs:decimal">86</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТранспортнаяНакладнаяДатаСтр</value>
+				<id xsi:type="xs:decimal">87</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">СодОпер</value>
+				<id xsi:type="xs:decimal">88</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТранспортнаяНакладнаяНомер</value>
+				<id xsi:type="xs:decimal">89</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТранспортнаяНакладнаяДата</value>
+				<id xsi:type="xs:decimal">90</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НомЗак</value>
+				<id xsi:type="xs:decimal">91</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатаЗак</value>
+				<id xsi:type="xs:decimal">92</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатФайлЗак</value>
+				<id xsi:type="xs:decimal">93</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВрФайлЗак</value>
+				<id xsi:type="xs:decimal">94</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЭП</value>
+				<id xsi:type="xs:decimal">95</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ГОЭксп</value>
+				<id xsi:type="xs:decimal">96</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИННУчастГО</value>
+				<id xsi:type="xs:decimal">97</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнфУчастГО</value>
+				<id xsi:type="xs:decimal">98</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимОргГО</value>
+				<id xsi:type="xs:decimal">99</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИННЮЛГО</value>
+				<id xsi:type="xs:decimal">100</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КППГО</value>
+				<id xsi:type="xs:decimal">101</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТлфГО</value>
+				<id xsi:type="xs:decimal">102</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЭлПочтаГО</value>
+				<id xsi:type="xs:decimal">103</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнКонтГО</value>
+				<id xsi:type="xs:decimal">104</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИННУчастЗАК</value>
+				<id xsi:type="xs:decimal">105</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнфУчастЗАК</value>
+				<id xsi:type="xs:decimal">106</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимОргЗАК</value>
+				<id xsi:type="xs:decimal">107</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИННЮЛЗАК</value>
+				<id xsi:type="xs:decimal">108</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КППЗАК</value>
+				<id xsi:type="xs:decimal">109</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТлфЗАК</value>
+				<id xsi:type="xs:decimal">110</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЭлПочтаЗАК</value>
+				<id xsi:type="xs:decimal">111</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнКонтЗАК</value>
+				<id xsi:type="xs:decimal">112</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЕстьОснование</value>
+				<id xsi:type="xs:decimal">113</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимДокПЕРЕВОЗКА</value>
+				<id xsi:type="xs:decimal">114</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НомерДокПЕРЕВОЗКА</value>
+				<id xsi:type="xs:decimal">115</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатаДокПЕРЕВОЗКА</value>
+				<id xsi:type="xs:decimal">116</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИдДокПЕРЕВОЗКА</value>
+				<id xsi:type="xs:decimal">117</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДопСведДокПЕРЕВОЗКА</value>
+				<id xsi:type="xs:decimal">118</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимОИВПЕРЕВОЗКА</value>
+				<id xsi:type="xs:decimal">119</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИННУчастГП</value>
+				<id xsi:type="xs:decimal">120</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнфУчастГП</value>
+				<id xsi:type="xs:decimal">121</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимОргГП</value>
+				<id xsi:type="xs:decimal">122</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИННЮЛГП</value>
+				<id xsi:type="xs:decimal">123</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КППГП</value>
+				<id xsi:type="xs:decimal">124</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТлфГП</value>
+				<id xsi:type="xs:decimal">125</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЭлПочтаГП</value>
+				<id xsi:type="xs:decimal">126</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнКонтГП</value>
+				<id xsi:type="xs:decimal">127</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">АдрКомментГП</value>
+				<id xsi:type="xs:decimal">128</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">СтЦеннГр</value>
+				<id xsi:type="xs:decimal">129</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КодОКВ</value>
+				<id xsi:type="xs:decimal">130</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимОКВ</value>
+				<id xsi:type="xs:decimal">131</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЗапрПерегруз</value>
+				<id xsi:type="xs:decimal">132</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатВрДостГр</value>
+				<id xsi:type="xs:decimal">133</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатВрДостГрСтр</value>
+				<id xsi:type="xs:decimal">134</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НалКоорТочВрДост</value>
+				<id xsi:type="xs:decimal">135</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">УкНормПрвз</value>
+				<id xsi:type="xs:decimal">136</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">МршТекст</value>
+				<id xsi:type="xs:decimal">137</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">МршМашЧит</value>
+				<id xsi:type="xs:decimal">138</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЛицоПА</value>
+				<id xsi:type="xs:decimal">139</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">СпосПерУкПА</value>
+				<id xsi:type="xs:decimal">140</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КонтПАТлф</value>
+				<id xsi:type="xs:decimal">141</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КонтПАЭлПочта</value>
+				<id xsi:type="xs:decimal">142</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнКонтПА</value>
+				<id xsi:type="xs:decimal">143</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИННУчастПЕР</value>
+				<id xsi:type="xs:decimal">144</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнфУчастПЕР</value>
+				<id xsi:type="xs:decimal">145</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НаимОргПЕР</value>
+				<id xsi:type="xs:decimal">146</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИННЮЛПЕР</value>
+				<id xsi:type="xs:decimal">147</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КПППЕР</value>
+				<id xsi:type="xs:decimal">148</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТлфПЕР</value>
+				<id xsi:type="xs:decimal">149</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЭлПочтаПЕР</value>
+				<id xsi:type="xs:decimal">150</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИнКонтПЕР</value>
+				<id xsi:type="xs:decimal">151</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">АдрКомментПЕР</value>
+				<id xsi:type="xs:decimal">152</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НомВУ</value>
+				<id xsi:type="xs:decimal">153</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">СерВУ</value>
+				<id xsi:type="xs:decimal">154</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатаВыдВУ</value>
+				<id xsi:type="xs:decimal">155</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДатаВыдВУСтр</value>
+				<id xsi:type="xs:decimal">156</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВодитФамилия</value>
+				<id xsi:type="xs:decimal">157</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВодитИмя</value>
+				<id xsi:type="xs:decimal">158</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВодитОтчество</value>
+				<id xsi:type="xs:decimal">159</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВодитТлф</value>
+				<id xsi:type="xs:decimal">160</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТСРегНомер</value>
+				<id xsi:type="xs:decimal">161</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ТСТипВлад</value>
+				<id xsi:type="xs:decimal">162</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПарТСТип</value>
+				<id xsi:type="xs:decimal">163</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПарТСМарка</value>
+				<id xsi:type="xs:decimal">164</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПарТСГрузопод</value>
+				<id xsi:type="xs:decimal">165</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПарТСВместим</value>
+				<id xsi:type="xs:decimal">166</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПрицепРегНомер</value>
+				<id xsi:type="xs:decimal">167</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПрицепТипВлад</value>
+				<id xsi:type="xs:decimal">168</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПарПрицепТип</value>
+				<id xsi:type="xs:decimal">169</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПарПрицепМарка</value>
+				<id xsi:type="xs:decimal">170</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПарПрицепГрузопод</value>
+				<id xsi:type="xs:decimal">171</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ПарПрицепВместим</value>
+				<id xsi:type="xs:decimal">172</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">СовпГОП</value>
+				<id xsi:type="xs:decimal">173</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">СовпГОВ</value>
+				<id xsi:type="xs:decimal">174</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЗаявПогр</value>
+				<id xsi:type="xs:decimal">175</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НалКоорТочВрЗаяв</value>
+				<id xsi:type="xs:decimal">176</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ФДатВрПриб</value>
+				<id xsi:type="xs:decimal">177</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НалКоорТочВрФПогр</value>
+				<id xsi:type="xs:decimal">178</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ФДатВрУбыт</value>
+				<id xsi:type="xs:decimal">179</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">НалКоорТочВрФУбыт</value>
+				<id xsi:type="xs:decimal">180</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ЗаявПогрСтр</value>
+				<id xsi:type="xs:decimal">181</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ФДатВрПрибСтр</value>
+				<id xsi:type="xs:decimal">182</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ФДатВрУбытСтр</value>
+				<id xsi:type="xs:decimal">183</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">МасБрутОтгр</value>
+				<id xsi:type="xs:decimal">184</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">МетОпрМасс</value>
+				<id xsi:type="xs:decimal">185</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">КолМестПрием</value>
+				<id xsi:type="xs:decimal">186</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">СтатПодп</value>
+				<id xsi:type="xs:decimal">187</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ДолжнПодп</value>
+				<id xsi:type="xs:decimal">188</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ФамилияПодп</value>
+				<id xsi:type="xs:decimal">189</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИмяПодп</value>
+				<id xsi:type="xs:decimal">190</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ОтчествоПодп</value>
+				<id xsi:type="xs:decimal">191</id>
+			</item>
 			<item>
 				<value xsi:type="xs:string">НомерПоПорядку</value>
-				<id xsi:type="xs:decimal">0</id>
+				<id xsi:type="xs:decimal">192</id>
 			</item>
 		</Value>
 		<Value xsi:type="ValueListType">
