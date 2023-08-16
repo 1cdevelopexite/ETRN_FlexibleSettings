@@ -1032,7 +1032,7 @@
 	<row>
 		<Value>"Маршрут, машиночитаемый формат" на вкладке "Основное" данных о перевозке</Value>
 		<Value>МршМашЧит</Value>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value>МршТекст</Value>
 		<Value/>
@@ -1042,7 +1042,7 @@
 	<row>
 		<Value>"Маршрут, текстовый формат" на вкладке "Основное" данных о перевозке</Value>
 		<Value>МршТекст</Value>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value>МршМашЧит</Value>
 		<Value/>
@@ -1354,8 +1354,8 @@
 		<Value>ПарПрицепВместим</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Вместим</Value>
 	</row>
@@ -1364,8 +1364,8 @@
 		<Value>ПарПрицепГрузопод</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Грузопод</Value>
 	</row>
@@ -1374,8 +1374,8 @@
 		<Value>ПарПрицепМарка</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Марка</Value>
 	</row>
@@ -1384,8 +1384,8 @@
 		<Value>ПарПрицепТип</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ПарТС_Тип</Value>
 	</row>
@@ -1454,8 +1454,8 @@
 		<Value>ПрицепРегНомер</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_РегНомер</Value>
 	</row>
@@ -1464,8 +1464,8 @@
 		<Value>ПрицепТипВлад</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value>Документ_СодИнфГО_СвТС_Прицеп_ТипВлад</Value>
 	</row>
@@ -1502,7 +1502,7 @@
 	<row>
 		<Value>"Маршрут, текстовый формат" на вкладке "Сведения о ТС"</Value>
 		<Value>СведМршМршТекст</Value>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value>СведМршМршМашЧит</Value>
 		<Value/>
@@ -1512,7 +1512,7 @@
 	<row>
 		<Value>"Маршрут, машиночитаемый формат" на вкладке "Сведения о ТС"</Value>
 		<Value>СведМршМршМашЧит</Value>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value>СведМршМршТекст</Value>
 		<Value/>
@@ -2654,8 +2654,8 @@
 		<Value>ПарПрицепВместимЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2664,8 +2664,8 @@
 		<Value>ПарПрицепГрузоподЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2674,8 +2674,8 @@
 		<Value>ПарПрицепМаркаЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2684,8 +2684,8 @@
 		<Value>ПарПрицепТипЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2754,8 +2754,8 @@
 		<Value>ПрицепРегНомерЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2764,8 +2764,8 @@
 		<Value>ПрицепТипВладЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ЕстьПрицеп</Value>
+		<Value>Да</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2782,7 +2782,7 @@
 	<row>
 		<Value>"Маршрут, машиночитаемый формат" на вкладке "Автомобиль/Прицеп"</Value>
 		<Value>СведМршМршМашЧитЗамена</Value>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value/>
 		<Value/>
@@ -2792,7 +2792,7 @@
 	<row>
 		<Value>"Маршрут, текстовый формат на вкладке "Автомобиль/Прицеп"</Value>
 		<Value>СведМршМршТекстЗамена</Value>
-		<Value>true</Value>
+		<Value>false</Value>
 		<Value>true</Value>
 		<Value/>
 		<Value/>
@@ -3478,5 +3478,25 @@
 		<Value/>
 		<Value>ON_TRNPEREADR</Value>
 		<Value>Документ_СодИнфПА_УИД_ТрН</Value>
+	</row>
+	<row>
+		<Value>"Дата исправления" на вкладке "Основание переадресовки"</Value>
+		<Value>ДатаИспр</Value>
+		<Value>true</Value>
+		<Value>true</Value>
+		<Value/>
+		<Value/>
+		<Value>ON_TRNPEREADR</Value>
+		<Value/>
+	</row>
+	<row>
+		<Value>"Номер исправления" на вкладке "Основание переадресовки"</Value>
+		<Value>НомерИспр</Value>
+		<Value>true</Value>
+		<Value>true</Value>
+		<Value/>
+		<Value/>
+		<Value>ON_TRNPEREADR</Value>
+		<Value/>
 	</row>
 </ValueTable>

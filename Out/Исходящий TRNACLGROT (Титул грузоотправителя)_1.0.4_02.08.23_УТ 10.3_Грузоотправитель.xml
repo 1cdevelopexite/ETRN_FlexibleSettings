@@ -3593,7 +3593,7 @@
 				<lastId xsi:type="xs:decimal">-1</lastId>
 			</Value>
 		</row>
-		<Value xsi:type="xs:boolean">false</Value>
+		<Value xsi:type="xs:boolean">true</Value>
 		<Value xsi:type="xs:string">Исходящий TRNACLGROT (Титул грузоотправителя)</Value>
 		<Value xsi:type="xs:string">Отправить титул ГО</Value>
 		<Value xsi:type="xs:string">ДокументЭТРН</Value>
