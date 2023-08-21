@@ -264,8 +264,8 @@
 		<Value>ДатаДок</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЕстьПутевойЛист</Value>
-		<Value>Да</Value>
+		<Value>ЕстьПутевойЛист|ИдДок</Value>
+		<Value>Да|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -294,8 +294,8 @@
 		<Value>ДатаДокОснование</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>СовпГОП</Value>
-		<Value>2</Value>
+		<Value>СовпГОП|ИдДокОснование</Value>
+		<Value>2|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -304,8 +304,8 @@
 		<Value>ДатаДокПереадр</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЛицоПА</Value>
-		<Value>Грузополучатель</Value>
+		<Value>ЛицоПА|ИдДокПереадр</Value>
+		<Value>Грузополучатель|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -462,30 +462,30 @@
 	<row>
 		<Value>"Идентификатор файла документа" путевого листа на вкладке "Сведения о водителе"</Value>
 		<Value>ИдДок</Value>
-		<Value>false</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>true</Value>
+		<Value>ЕстьПутевойЛист|НаимДок|НомерДок|ДатаДок</Value>
+		<Value>Да|||01.01.0001 0:00:00</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
 	<row>
 		<Value>"Идентификатор файла документа" документа переадресовки на вкладке "Сведения о процедуре переадресовки"</Value>
 		<Value>ИдДокОснование</Value>
-		<Value>false</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>true</Value>
+		<Value>СовпГОП|НаимДокОснование|НомерДокОснование|ДатаДокОснование</Value>
+		<Value>2|||01.01.0001 0:00:00</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
 	<row>
 		<Value>"Идентификатор файла документа" на вкладке "Основание, по которому осуществляется погрузка"</Value>
 		<Value>ИдДокПереадр</Value>
-		<Value>false</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>true</Value>
+		<Value>ЛицоПА|НаимДокПереадр|НомерДокПереадр|ДатаДокПереадр</Value>
+		<Value>Грузополучатель|||01.01.0001 0:00:00</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -1032,7 +1032,7 @@
 	<row>
 		<Value>"Маршрут, машиночитаемый формат" на вкладке "Основное" данных о перевозке</Value>
 		<Value>МршМашЧит</Value>
-		<Value>false</Value>
+		<Value>true</Value>
 		<Value>true</Value>
 		<Value>МршТекст</Value>
 		<Value/>
@@ -1042,7 +1042,7 @@
 	<row>
 		<Value>"Маршрут, текстовый формат" на вкладке "Основное" данных о перевозке</Value>
 		<Value>МршТекст</Value>
-		<Value>false</Value>
+		<Value>true</Value>
 		<Value>true</Value>
 		<Value>МршМашЧит</Value>
 		<Value/>
@@ -1074,8 +1074,8 @@
 		<Value>НаимДок</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЕстьПутевойЛист</Value>
-		<Value>Да</Value>
+		<Value>ЕстьПутевойЛист|ИдДок</Value>
+		<Value>Да|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -1084,8 +1084,8 @@
 		<Value>НаимДокОснование</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>СовпГОП</Value>
-		<Value>2</Value>
+		<Value>СовпГОП|ИдДокОснование</Value>
+		<Value>2|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -1094,8 +1094,8 @@
 		<Value>НаимДокПереадр</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЛицоПА</Value>
-		<Value>Грузополучатель</Value>
+		<Value>ЛицоПА|ИдДокПереадр</Value>
+		<Value>Грузополучатель|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -1194,8 +1194,8 @@
 		<Value>НомерДок</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЕстьПутевойЛист</Value>
-		<Value>Да</Value>
+		<Value>ЕстьПутевойЛист|ИдДок</Value>
+		<Value>Да|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -1224,8 +1224,8 @@
 		<Value>НомерДокОснование</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>СовпГОП</Value>
-		<Value>2</Value>
+		<Value>СовпГОП|ИдДокОснование</Value>
+		<Value>2|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -1234,8 +1234,8 @@
 		<Value>НомерДокПереадр</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЛицоПА</Value>
-		<Value>Грузополучатель</Value>
+		<Value>ЛицоПА|ИдДокПереадр</Value>
+		<Value>Грузополучатель|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -1502,20 +1502,20 @@
 	<row>
 		<Value>"Маршрут, текстовый формат" на вкладке "Сведения о ТС"</Value>
 		<Value>СведМршМршТекст</Value>
-		<Value>false</Value>
 		<Value>true</Value>
-		<Value>СведМршМршМашЧит</Value>
-		<Value/>
+		<Value>true</Value>
+		<Value>ЕстьСпецУсловия|СведМршМршМашЧит</Value>
+		<Value>Да|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
 	<row>
 		<Value>"Маршрут, машиночитаемый формат" на вкладке "Сведения о ТС"</Value>
 		<Value>СведМршМршМашЧит</Value>
-		<Value>false</Value>
 		<Value>true</Value>
-		<Value>СведМршМршТекст</Value>
-		<Value/>
+		<Value>true</Value>
+		<Value>ЕстьСпецУсловия|СведМршМршТекст</Value>
+		<Value>Да|</Value>
 		<Value>ON_TRNACLGROT</Value>
 		<Value/>
 	</row>
@@ -2404,8 +2404,8 @@
 		<Value>ДатаДокЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЕстьПутевойЛист</Value>
-		<Value>Да</Value>
+		<Value>ЕстьПутевойЛист|ИдДокЗамена</Value>
+		<Value>Да|</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2424,7 +2424,7 @@
 		<Value>ДатаДокПричинаЗамены</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>ИдДокПричинаЗамены</Value>
 		<Value/>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
@@ -2492,20 +2492,20 @@
 	<row>
 		<Value>"Идентификатор документа" на вкладке "Водитель"</Value>
 		<Value>ИдДокЗамена</Value>
-		<Value>false</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>true</Value>
+		<Value>ЕстьПутевойЛист|НаимДокЗамена|НомерДокЗамена|ДатаДокЗамена</Value>
+		<Value>Да|||01.01.0001 0:00:00</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
 	<row>
 		<Value>"Идентификатор файла документа" на вкладке "Причины замены"</Value>
 		<Value>ИдДокПричинаЗамены</Value>
-		<Value>false</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>true</Value>
+		<Value>НаимДокПричинаЗамены|НомерДокПричинаЗамены|ДатаДокПричинаЗамены</Value>
+		<Value>||01.01.0001 0:00:00</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2534,8 +2534,8 @@
 		<Value>НаимДокЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЕстьПутевойЛист</Value>
-		<Value>Да</Value>
+		<Value>ЕстьПутевойЛист|ИдДокЗамена</Value>
+		<Value>Да|</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2554,7 +2554,7 @@
 		<Value>НаимДокПричинаЗамены</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>ИдДокПричинаЗамены</Value>
 		<Value/>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
@@ -2594,8 +2594,8 @@
 		<Value>НомерДокЗамена</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value>ЕстьПутевойЛист</Value>
-		<Value>Да</Value>
+		<Value>ЕстьПутевойЛист|ИдДокЗамена</Value>
+		<Value>Да|</Value>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
 	</row>
@@ -2614,7 +2614,7 @@
 		<Value>НомерДокПричинаЗамены</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>ИдДокПричинаЗамены</Value>
 		<Value/>
 		<Value>ON_TRNZAMEN</Value>
 		<Value/>
@@ -3334,7 +3334,7 @@
 		<Value>ОснПАДатаДок</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>ОснПАИдДок</Value>
 		<Value/>
 		<Value>ON_TRNPEREADR</Value>
 		<Value>Документ_СодИнфПА_ОснПА_ДатаДок</Value>
@@ -3354,8 +3354,8 @@
 		<Value>ОснПАИдДок</Value>
 		<Value>false</Value>
 		<Value>true</Value>
-		<Value/>
-		<Value/>
+		<Value>ОснПАИдДок|ОснПАНомерДок|ОснПАДатаДок</Value>
+		<Value>||01.01.0001 0:00:00</Value>
 		<Value>ON_TRNPEREADR</Value>
 		<Value>Документ_СодИнфПА_ОснПА_ИдДок</Value>
 	</row>
@@ -3364,7 +3364,7 @@
 		<Value>ОснПАНаимДок</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>ОснПАИдДок</Value>
 		<Value/>
 		<Value>ON_TRNPEREADR</Value>
 		<Value>Документ_СодИнфПА_ОснПА_НаимДок</Value>
@@ -3374,7 +3374,7 @@
 		<Value>ОснПАНомерДок</Value>
 		<Value>true</Value>
 		<Value>true</Value>
-		<Value/>
+		<Value>ОснПАИдДок</Value>
 		<Value/>
 		<Value>ON_TRNPEREADR</Value>
 		<Value>Документ_СодИнфПА_ОснПА_НомерДок</Value>
