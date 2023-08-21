@@ -8,10 +8,6 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">Кнопка</Name>
-		<ValueType/>
-	</column>
-	<column>
 		<Name xsi:type="xs:string">Источник</Name>
 		<ValueType/>
 	</column>
@@ -20,11 +16,7 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">Данные</Name>
-		<ValueType/>
-	</column>
-	<column>
-		<Name xsi:type="xs:string">Обязательный</Name>
+		<Name xsi:type="xs:string">Служебные</Name>
 		<ValueType/>
 	</column>
 	<column>
@@ -32,7 +24,15 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">Служебные</Name>
+		<Name xsi:type="xs:string">Данные</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">ДанныеЗначения</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">ДоступныеЗначения</Name>
 		<ValueType/>
 	</column>
 	<column>
@@ -48,11 +48,11 @@
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">ДанныеЗначения</Name>
+		<Name xsi:type="xs:string">Обязательный</Name>
 		<ValueType/>
 	</column>
 	<column>
-		<Name xsi:type="xs:string">ДоступныеЗначения</Name>
+		<Name xsi:type="xs:string">Кнопка</Name>
 		<ValueType/>
 	</column>
 	<column>
@@ -65,46 +65,46 @@
 				<Value xsi:type="xs:boolean">true</Value>
 				<Value xsi:type="xs:string"/>
 				<Value xsi:type="xs:string"/>
-				<Value xsi:type="xs:string"/>
 				<Value xsi:type="xs:string">ИдИнфПрвПрием</Value>
-				<Value xsi:type="xs:string"/>
-				<Value xsi:type="xs:boolean">false</Value>
+				<Value xsi:nil="true"/>
 				<Value xsi:type="ValueListType">
 					<valueType/>
-					<lastId xsi:type="xs:decimal">7</lastId>
+					<lastId xsi:type="xs:decimal">19</lastId>
 					<item>
 						<value xsi:type="xs:string">ИдФайлПрвПрием</value>
 						<presentation>Документ.ИдентификаторОснования</presentation>
-						<id xsi:type="xs:decimal">4</id>
+						<id xsi:type="xs:decimal">16</id>
 					</item>
 					<item>
 						<value xsi:type="xs:string">ДатФайлПрвПрием</value>
 						<presentation>Документ.ДатФайлПрвПрием</presentation>
-						<id xsi:type="xs:decimal">5</id>
+						<id xsi:type="xs:decimal">17</id>
 					</item>
 					<item>
 						<value xsi:type="xs:string">ВрФайлПрвПрием</value>
 						<presentation>Документ.ВрФайлПрвПрием</presentation>
-						<id xsi:type="xs:decimal">6</id>
+						<id xsi:type="xs:decimal">18</id>
 					</item>
 					<item>
 						<value xsi:type="xs:string">ЭП</value>
 						<presentation>Документ.ЭП</presentation>
-						<id xsi:type="xs:decimal">7</id>
+						<id xsi:type="xs:decimal">19</id>
 					</item>
 				</Value>
-				<Value xsi:nil="true"/>
-				<Value xsi:type="ValueListType">
-					<valueType/>
-					<lastId xsi:type="xs:decimal">-1</lastId>
-				</Value>
-				<Value xsi:type="xs:decimal">0</Value>
-				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:string"/>
 				<Value xsi:type="ValueTable"/>
 				<Value xsi:type="ValueListType">
 					<valueType/>
 					<lastId xsi:type="xs:decimal">-1</lastId>
 				</Value>
+				<Value xsi:type="ValueListType">
+					<valueType/>
+					<lastId xsi:type="xs:decimal">-1</lastId>
+				</Value>
+				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:boolean">false</Value>
+				<Value xsi:type="xs:string"/>
 				<Value xsi:type="ValueListType">
 					<valueType/>
 					<lastId xsi:type="xs:decimal">-1</lastId>
@@ -115,10 +115,8 @@
 					<Value xsi:type="xs:boolean">true</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">ИспрТрН</Value>
-					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:nil="true"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">5</lastId>
@@ -133,18 +131,20 @@
 							<id xsi:type="xs:decimal">5</id>
 						</item>
 					</Value>
-					<Value xsi:nil="true"/>
-					<Value xsi:type="ValueListType">
-						<valueType/>
-						<lastId xsi:type="xs:decimal">-1</lastId>
-					</Value>
-					<Value xsi:type="xs:decimal">0</Value>
-					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
+					<Value xsi:type="ValueListType">
+						<valueType/>
+						<lastId xsi:type="xs:decimal">-1</lastId>
+					</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
@@ -156,21 +156,13 @@
 							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">ИННЮЛ</Value>
-							<Value xsi:type="xs:string">Документ.ИННЮЛ</Value>
-							<Value xsi:type="xs:boolean">false</Value>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string">Документ.ИННЮЛ</Value>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -180,31 +172,39 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<row>
 							<Value xsi:type="xs:boolean">false</Value>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">ИННФЛ</Value>
-							<Value xsi:type="xs:string">Документ.ИННФЛ</Value>
-							<Value xsi:type="xs:boolean">false</Value>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string">Документ.ИННФЛ</Value>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
@@ -214,26 +214,26 @@
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">НаимОИВ</Value>
-							<Value xsi:type="xs:string">Документ.НаимОИВ</Value>
-							<Value xsi:type="xs:boolean">false</Value>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string">Документ.НаимОИВ</Value>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
@@ -242,21 +242,13 @@
 						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">ИдРекСост</Value>
-						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:boolean">false</Value>
-						<Value xsi:type="ValueListType">
-							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
-						</Value>
 						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
-						<Value xsi:type="xs:decimal">0</Value>
-						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
@@ -266,14 +258,20 @@
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
 					</row>
 					<Value xsi:type="xs:boolean">true</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">ОснПА</Value>
-					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:nil="true"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">19</lastId>
@@ -303,18 +301,20 @@
 							<id xsi:type="xs:decimal">19</id>
 						</item>
 					</Value>
-					<Value xsi:nil="true"/>
-					<Value xsi:type="ValueListType">
-						<valueType/>
-						<lastId xsi:type="xs:decimal">-1</lastId>
-					</Value>
-					<Value xsi:type="xs:decimal">0</Value>
-					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
+					<Value xsi:type="ValueListType">
+						<valueType/>
+						<lastId xsi:type="xs:decimal">-1</lastId>
+					</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
@@ -325,10 +325,8 @@
 						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">ИнфДляУчаст</Value>
-						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">3</lastId>
@@ -343,18 +341,20 @@
 								<id xsi:type="xs:decimal">3</id>
 							</item>
 						</Value>
-						<Value xsi:nil="true"/>
-						<Value xsi:type="ValueListType">
-							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
-						</Value>
-						<Value xsi:type="xs:decimal">0</Value>
-						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
@@ -366,10 +366,8 @@
 								<Value xsi:type="xs:boolean">true</Value>
 								<Value xsi:type="xs:string"/>
 								<Value xsi:type="xs:string"/>
-								<Value xsi:type="xs:string"/>
 								<Value xsi:type="xs:string">ФИО</Value>
-								<Value xsi:type="xs:string"/>
-								<Value xsi:type="xs:boolean">false</Value>
+								<Value xsi:nil="true"/>
 								<Value xsi:type="ValueListType">
 									<valueType/>
 									<lastId xsi:type="xs:decimal">2</lastId>
@@ -389,13 +387,7 @@
 										<id xsi:type="xs:decimal">2</id>
 									</item>
 								</Value>
-								<Value xsi:nil="true"/>
-								<Value xsi:type="ValueListType">
-									<valueType/>
-									<lastId xsi:type="xs:decimal">-1</lastId>
-								</Value>
-								<Value xsi:type="xs:decimal">0</Value>
-								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:string"/>
 								<Value xsi:type="ValueTable"/>
 								<Value xsi:type="ValueListType">
 									<valueType/>
@@ -405,14 +397,20 @@
 									<valueType/>
 									<lastId xsi:type="xs:decimal">-1</lastId>
 								</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:boolean">false</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
 							</row>
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">СвИП</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">2</lastId>
@@ -432,13 +430,7 @@
 									<id xsi:type="xs:decimal">2</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -448,15 +440,21 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<row>
 							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">СвЮЛУч</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">2</lastId>
@@ -476,13 +474,7 @@
 									<id xsi:type="xs:decimal">2</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -492,15 +484,21 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<row>
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">СвИнНеУч</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">9</lastId>
@@ -530,18 +528,20 @@
 									<id xsi:type="xs:decimal">9</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
@@ -552,10 +552,8 @@
 								<Value xsi:type="xs:boolean">true</Value>
 								<Value xsi:type="xs:string"/>
 								<Value xsi:type="xs:string"/>
-								<Value xsi:type="xs:string"/>
 								<Value xsi:type="xs:string">ФИО</Value>
-								<Value xsi:type="xs:string"/>
-								<Value xsi:type="xs:boolean">false</Value>
+								<Value xsi:nil="true"/>
 								<Value xsi:type="ValueListType">
 									<valueType/>
 									<lastId xsi:type="xs:decimal">2</lastId>
@@ -575,13 +573,7 @@
 										<id xsi:type="xs:decimal">2</id>
 									</item>
 								</Value>
-								<Value xsi:nil="true"/>
-								<Value xsi:type="ValueListType">
-									<valueType/>
-									<lastId xsi:type="xs:decimal">-1</lastId>
-								</Value>
-								<Value xsi:type="xs:decimal">0</Value>
-								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:string"/>
 								<Value xsi:type="ValueTable"/>
 								<Value xsi:type="ValueListType">
 									<valueType/>
@@ -591,14 +583,20 @@
 									<valueType/>
 									<lastId xsi:type="xs:decimal">-1</lastId>
 								</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:decimal">0</Value>
+								<Value xsi:type="xs:boolean">false</Value>
+								<Value xsi:type="xs:string"/>
+								<Value xsi:type="ValueListType">
+									<valueType/>
+									<lastId xsi:type="xs:decimal">-1</lastId>
+								</Value>
 							</row>
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">СвФЛУчаст</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">3</lastId>
@@ -613,13 +611,7 @@
 									<id xsi:type="xs:decimal">3</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -629,30 +621,38 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">ИдСв</Value>
-						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:boolean">false</Value>
-						<Value xsi:type="ValueListType">
-							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
-						</Value>
 						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
-						<Value xsi:type="xs:decimal">0</Value>
-						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
@@ -663,10 +663,8 @@
 							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">АдрРФ</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">17</lastId>
@@ -716,13 +714,7 @@
 									<id xsi:type="xs:decimal">17</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -732,15 +724,21 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<row>
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">АдрИнф</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">1</lastId>
@@ -755,18 +753,20 @@
 									<id xsi:type="xs:decimal">1</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
@@ -776,21 +776,13 @@
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">КодГАР</Value>
-							<Value xsi:type="xs:string">Документ.КодГАР</Value>
-							<Value xsi:type="xs:boolean">false</Value>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string">Документ.КодГАР</Value>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -800,30 +792,38 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">Адрес</Value>
-						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:boolean">false</Value>
-						<Value xsi:type="ValueListType">
-							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
-						</Value>
 						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
-						<Value xsi:type="xs:decimal">0</Value>
-						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
@@ -834,21 +834,13 @@
 							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">Тлф</Value>
-							<Value xsi:type="xs:string">Документ.Тлф</Value>
-							<Value xsi:type="xs:boolean">false</Value>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string">Документ.Тлф</Value>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -858,25 +850,25 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">Контакт</Value>
-						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">2</lastId>
 						</Value>
-						<Value xsi:nil="true"/>
-						<Value xsi:type="ValueListType">
-							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
-						</Value>
-						<Value xsi:type="xs:decimal">0</Value>
-						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
@@ -886,30 +878,38 @@
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
 					</row>
 					<Value xsi:type="xs:boolean">true</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">НовГрузПол</Value>
-					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:boolean">false</Value>
-					<Value xsi:type="ValueListType">
-						<valueType/>
-						<lastId xsi:type="xs:decimal">-1</lastId>
-					</Value>
 					<Value xsi:nil="true"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
-					<Value xsi:type="xs:decimal">0</Value>
-					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
+					<Value xsi:type="ValueListType">
+						<valueType/>
+						<lastId xsi:type="xs:decimal">-1</lastId>
+					</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
@@ -921,21 +921,13 @@
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">ГЛН</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
 							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -945,15 +937,21 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<row>
 							<Value xsi:type="xs:boolean">false</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">Коорд</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">1</lastId>
@@ -966,13 +964,7 @@
 									<id xsi:type="xs:decimal">1</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -982,15 +974,21 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<row>
 							<Value xsi:type="xs:boolean">true</Value>
 							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:string"/>
 							<Value xsi:type="xs:string">АдресРФ</Value>
-							<Value xsi:type="xs:string"/>
-							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:nil="true"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
 								<lastId xsi:type="xs:decimal">17</lastId>
@@ -1040,13 +1038,7 @@
 									<id xsi:type="xs:decimal">17</id>
 								</item>
 							</Value>
-							<Value xsi:nil="true"/>
-							<Value xsi:type="ValueListType">
-								<valueType/>
-								<lastId xsi:type="xs:decimal">-1</lastId>
-							</Value>
-							<Value xsi:type="xs:decimal">0</Value>
-							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:string"/>
 							<Value xsi:type="ValueTable"/>
 							<Value xsi:type="ValueListType">
 								<valueType/>
@@ -1056,14 +1048,20 @@
 								<valueType/>
 								<lastId xsi:type="xs:decimal">-1</lastId>
 							</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:decimal">0</Value>
+							<Value xsi:type="xs:boolean">false</Value>
+							<Value xsi:type="xs:string"/>
+							<Value xsi:type="ValueListType">
+								<valueType/>
+								<lastId xsi:type="xs:decimal">-1</lastId>
+							</Value>
 						</row>
 						<Value xsi:type="xs:boolean">true</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">АдрВыгруз</Value>
-						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">1</lastId>
@@ -1072,13 +1070,7 @@
 								<id xsi:type="xs:decimal">1</id>
 							</item>
 						</Value>
-						<Value xsi:nil="true"/>
-						<Value xsi:type="ValueListType">
-							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
-						</Value>
-						<Value xsi:type="xs:decimal">0</Value>
-						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
@@ -1088,14 +1080,20 @@
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
 					</row>
 					<Value xsi:type="xs:boolean">true</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">НовПунктВыгр</Value>
-					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:nil="true"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">3</lastId>
@@ -1110,18 +1108,20 @@
 							<id xsi:type="xs:decimal">3</id>
 						</item>
 					</Value>
-					<Value xsi:nil="true"/>
-					<Value xsi:type="ValueListType">
-						<valueType/>
-						<lastId xsi:type="xs:decimal">-1</lastId>
-					</Value>
-					<Value xsi:type="xs:decimal">0</Value>
-					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
+					<Value xsi:type="ValueListType">
+						<valueType/>
+						<lastId xsi:type="xs:decimal">-1</lastId>
+					</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
@@ -1132,21 +1132,13 @@
 						<Value xsi:type="xs:boolean">false</Value>
 						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:string"/>
 						<Value xsi:type="xs:string">ИнфПол</Value>
-						<Value xsi:type="xs:string"/>
-						<Value xsi:type="xs:boolean">false</Value>
-						<Value xsi:type="ValueListType">
-							<valueType/>
-							<lastId xsi:type="xs:decimal">-1</lastId>
-						</Value>
 						<Value xsi:nil="true"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
-						<Value xsi:type="xs:decimal">0</Value>
-						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:string"/>
 						<Value xsi:type="ValueTable"/>
 						<Value xsi:type="ValueListType">
 							<valueType/>
@@ -1156,14 +1148,20 @@
 							<valueType/>
 							<lastId xsi:type="xs:decimal">-1</lastId>
 						</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:decimal">0</Value>
+						<Value xsi:type="xs:boolean">false</Value>
+						<Value xsi:type="xs:string"/>
+						<Value xsi:type="ValueListType">
+							<valueType/>
+							<lastId xsi:type="xs:decimal">-1</lastId>
+						</Value>
 					</row>
-					<Value xsi:type="xs:boolean">true</Value>
-					<Value xsi:type="xs:string"/>
+					<Value xsi:type="xs:boolean">false</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">ОтметПА</Value>
-					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:nil="true"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">5</lastId>
@@ -1183,18 +1181,20 @@
 							<id xsi:type="xs:decimal">5</id>
 						</item>
 					</Value>
-					<Value xsi:nil="true"/>
-					<Value xsi:type="ValueListType">
-						<valueType/>
-						<lastId xsi:type="xs:decimal">-1</lastId>
-					</Value>
-					<Value xsi:type="xs:decimal">0</Value>
-					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
+					<Value xsi:type="ValueListType">
+						<valueType/>
+						<lastId xsi:type="xs:decimal">-1</lastId>
+					</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
@@ -1204,21 +1204,13 @@
 					<Value xsi:type="xs:boolean">false</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">ИнфПол</Value>
-					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:boolean">false</Value>
-					<Value xsi:type="ValueListType">
-						<valueType/>
-						<lastId xsi:type="xs:decimal">-1</lastId>
-					</Value>
 					<Value xsi:nil="true"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
-					<Value xsi:type="xs:decimal">0</Value>
-					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
@@ -1228,14 +1220,20 @@
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:string"/>
+					<Value xsi:type="ValueListType">
+						<valueType/>
+						<lastId xsi:type="xs:decimal">-1</lastId>
+					</Value>
 				</row>
 				<Value xsi:type="xs:boolean">true</Value>
 				<Value xsi:type="xs:string"/>
 				<Value xsi:type="xs:string"/>
-				<Value xsi:type="xs:string"/>
 				<Value xsi:type="xs:string">СодИнфПА</Value>
-				<Value xsi:type="xs:string"/>
-				<Value xsi:type="xs:boolean">false</Value>
+				<Value xsi:nil="true"/>
 				<Value xsi:type="ValueListType">
 					<valueType/>
 					<lastId xsi:type="xs:decimal">20</lastId>
@@ -1275,18 +1273,20 @@
 						<id xsi:type="xs:decimal">20</id>
 					</item>
 				</Value>
-				<Value xsi:nil="true"/>
-				<Value xsi:type="ValueListType">
-					<valueType/>
-					<lastId xsi:type="xs:decimal">-1</lastId>
-				</Value>
-				<Value xsi:type="xs:decimal">0</Value>
-				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:string"/>
 				<Value xsi:type="ValueTable"/>
 				<Value xsi:type="ValueListType">
 					<valueType/>
 					<lastId xsi:type="xs:decimal">-1</lastId>
 				</Value>
+				<Value xsi:type="ValueListType">
+					<valueType/>
+					<lastId xsi:type="xs:decimal">-1</lastId>
+				</Value>
+				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:boolean">false</Value>
+				<Value xsi:type="xs:string"/>
 				<Value xsi:type="ValueListType">
 					<valueType/>
 					<lastId xsi:type="xs:decimal">-1</lastId>
@@ -1297,10 +1297,8 @@
 					<Value xsi:type="xs:boolean">true</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">ФИО</Value>
-					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:nil="true"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">2</lastId>
@@ -1320,13 +1318,7 @@
 							<id xsi:type="xs:decimal">2</id>
 						</item>
 					</Value>
-					<Value xsi:nil="true"/>
-					<Value xsi:type="ValueListType">
-						<valueType/>
-						<lastId xsi:type="xs:decimal">-1</lastId>
-					</Value>
-					<Value xsi:type="xs:decimal">0</Value>
-					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
@@ -1336,15 +1328,21 @@
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:string"/>
+					<Value xsi:type="ValueListType">
+						<valueType/>
+						<lastId xsi:type="xs:decimal">-1</lastId>
+					</Value>
 				</row>
 				<row>
 					<Value xsi:type="xs:boolean">false</Value>
 					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:string"/>
 					<Value xsi:type="xs:string">СвДовер</Value>
-					<Value xsi:type="xs:string"/>
-					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:nil="true"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
 						<lastId xsi:type="xs:decimal">3</lastId>
@@ -1365,13 +1363,7 @@
 							<id xsi:type="xs:decimal">3</id>
 						</item>
 					</Value>
-					<Value xsi:nil="true"/>
-					<Value xsi:type="ValueListType">
-						<valueType/>
-						<lastId xsi:type="xs:decimal">-1</lastId>
-					</Value>
-					<Value xsi:type="xs:decimal">0</Value>
-					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:string"/>
 					<Value xsi:type="ValueTable"/>
 					<Value xsi:type="ValueListType">
 						<valueType/>
@@ -1381,14 +1373,20 @@
 						<valueType/>
 						<lastId xsi:type="xs:decimal">-1</lastId>
 					</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:decimal">0</Value>
+					<Value xsi:type="xs:boolean">false</Value>
+					<Value xsi:type="xs:string"/>
+					<Value xsi:type="ValueListType">
+						<valueType/>
+						<lastId xsi:type="xs:decimal">-1</lastId>
+					</Value>
 				</row>
 				<Value xsi:type="xs:boolean">true</Value>
 				<Value xsi:type="xs:string"/>
 				<Value xsi:type="xs:string"/>
-				<Value xsi:type="xs:string"/>
 				<Value xsi:type="xs:string">Подписант</Value>
-				<Value xsi:type="xs:string"/>
-				<Value xsi:type="xs:boolean">false</Value>
+				<Value xsi:nil="true"/>
 				<Value xsi:type="ValueListType">
 					<valueType/>
 					<lastId xsi:type="xs:decimal">14</lastId>
@@ -1405,13 +1403,7 @@
 						<id xsi:type="xs:decimal">14</id>
 					</item>
 				</Value>
-				<Value xsi:nil="true"/>
-				<Value xsi:type="ValueListType">
-					<valueType/>
-					<lastId xsi:type="xs:decimal">-1</lastId>
-				</Value>
-				<Value xsi:type="xs:decimal">0</Value>
-				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:string"/>
 				<Value xsi:type="ValueTable"/>
 				<Value xsi:type="ValueListType">
 					<valueType/>
@@ -1421,14 +1413,20 @@
 					<valueType/>
 					<lastId xsi:type="xs:decimal">-1</lastId>
 				</Value>
+				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:decimal">0</Value>
+				<Value xsi:type="xs:boolean">false</Value>
+				<Value xsi:type="xs:string"/>
+				<Value xsi:type="ValueListType">
+					<valueType/>
+					<lastId xsi:type="xs:decimal">-1</lastId>
+				</Value>
 			</row>
 			<Value xsi:type="xs:boolean">true</Value>
 			<Value xsi:type="xs:string"/>
 			<Value xsi:type="xs:string"/>
-			<Value xsi:type="xs:string"/>
 			<Value xsi:type="xs:string">Документ</Value>
-			<Value xsi:type="xs:string"/>
-			<Value xsi:type="xs:boolean">false</Value>
+			<Value xsi:nil="true"/>
 			<Value xsi:type="ValueListType">
 				<valueType/>
 				<lastId xsi:type="xs:decimal">7</lastId>
@@ -1453,13 +1451,7 @@
 					<id xsi:type="xs:decimal">7</id>
 				</item>
 			</Value>
-			<Value xsi:nil="true"/>
-			<Value xsi:type="ValueListType">
-				<valueType/>
-				<lastId xsi:type="xs:decimal">-1</lastId>
-			</Value>
-			<Value xsi:type="xs:decimal">0</Value>
-			<Value xsi:type="xs:decimal">0</Value>
+			<Value xsi:type="xs:string"/>
 			<Value xsi:type="ValueTable"/>
 			<Value xsi:type="ValueListType">
 				<valueType/>
@@ -1469,12 +1461,67 @@
 				<valueType/>
 				<lastId xsi:type="xs:decimal">-1</lastId>
 			</Value>
+			<Value xsi:type="xs:decimal">0</Value>
+			<Value xsi:type="xs:decimal">0</Value>
+			<Value xsi:type="xs:boolean">false</Value>
+			<Value xsi:type="xs:string"/>
+			<Value xsi:type="ValueListType">
+				<valueType/>
+				<lastId xsi:type="xs:decimal">-1</lastId>
+			</Value>
 		</row>
 		<Value xsi:type="xs:boolean">true</Value>
 		<Value xsi:type="xs:string">Исходящий TRNPEREADR (Переадресовка)</Value>
-		<Value xsi:type="xs:string">Переадресовка</Value>
 		<Value xsi:type="xs:string">ТекущийДокумент</Value>
 		<Value xsi:type="xs:string">Файл</Value>
+		<Value xsi:type="Structure">
+			<Property name="Ссылка">
+				<Value xsi:type="xs:string">Документ.Ссылка</Value>
+			</Property>
+			<Property name="ВидДокумента">
+				<Value xsi:type="xs:string">Документ.ВидДокумента</Value>
+			</Property>
+			<Property name="Идентификатор">
+				<Value xsi:type="xs:string">Документ.ИдентификаторДокумента</Value>
+			</Property>
+			<Property name="Номер">
+				<Value xsi:type="xs:string">Документ.Номер</Value>
+			</Property>
+			<Property name="ФайлИмя">
+				<Value xsi:type="xs:string">Документ.ИмяФайла</Value>
+			</Property>
+			<Property name="Организация">
+				<Value xsi:type="xs:string">Документ.Организация</Value>
+			</Property>
+			<Property name="Грузоотправитель">
+				<Value xsi:type="xs:string">Документ.Грузоотправитель</Value>
+			</Property>
+			<Property name="Грузополучатель">
+				<Value xsi:type="xs:string">Документ.Грузополучатель</Value>
+			</Property>
+			<Property name="Грузоперевозчик">
+				<Value xsi:type="xs:string">Документ.Грузоперевозчик</Value>
+			</Property>
+		</Value>
+		<Value xsi:type="ValueListType">
+			<valueType/>
+			<lastId xsi:type="xs:decimal">5</lastId>
+			<item>
+				<value xsi:type="xs:string">ИдФайл</value>
+				<presentation>Документ.ИдФайл</presentation>
+				<id xsi:type="xs:decimal">3</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВерсФорм</value>
+				<presentation>Документ.ВерсФорм</presentation>
+				<id xsi:type="xs:decimal">4</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ВерсПрог</value>
+				<presentation>Документ.ВерсПрог</presentation>
+				<id xsi:type="xs:decimal">5</id>
+			</item>
+		</Value>
 		<Value xsi:type="xs:string">ЗапросМЧД = Новый Запрос; 
 ЗапросМЧД.УстановитьПараметр("ЭтоРегламентноеЗадание", ЭтоРегламентноеЗадание); 
 ЗапросМЧД.УстановитьПараметр("Пользователь", НайтиТекущегоПользователя()); 
@@ -1485,29 +1532,91 @@
 ТаблицаМЧД = ЗапросМЧД.Выполнить().Выгрузить();
 
 Запрос = Новый Запрос;  
- Запрос.Текст ="ВЫБРАТЬ
-               |	DR_УчастникиОбмена.Ссылка КАК Ссылка,
-               |	DR_УчастникиОбмена.GLN КАК GLN,
-               |	DR_УчастникиОбмена.GUID КАК GUID,
-               |	DR_УчастникиОбмена.Роль КАК Роль,
-               |	DR_УчастникиОбмена.Адрес_Город КАК Адрес_Город,
-               |	DR_УчастникиОбмена.Адрес_Дом КАК Адрес_Дом,
-               |	DR_УчастникиОбмена.Адрес_Индекс КАК Адрес_Индекс,
-               |	DR_УчастникиОбмена.Адрес_ИностранныйАдрес КАК Адрес_ИностранныйАдрес,
-               |	DR_УчастникиОбмена.Адрес_Квартира КАК Адрес_Квартира,
-               |	DR_УчастникиОбмена.Адрес_КодРегиона КАК Адрес_КодРегиона,
-               |	DR_УчастникиОбмена.Адрес_Корпус КАК Адрес_Корпус,
-               |	DR_УчастникиОбмена.Адрес_НаселПункт КАК Адрес_НаселПункт,
-               |	DR_УчастникиОбмена.Адрес_Район КАК Адрес_Район,
-               |	DR_УчастникиОбмена.Адрес_Улица КАК Адрес_Улица,
-               |	DR_УчастникиОбмена.Адрес_ЯвляетсяИностранным КАК Адрес_ЯвляетсяИностранным,
-               |	DR_УчастникиОбмена.ОператорЭДО КАК ОператорЭДО,
-               |	DR_УчастникиОбмена.ПрофильОбмена КАК ПрофильОбмена,
-			   |	DR_УчастникиОбмена.ПоддерживаетМЧД КАК ОтправитьМЧД
-               |ПОМЕСТИТЬ DR_УчастникиОбмена
-               |ИЗ
-               |	&amp;DR_УчастникиОбмена КАК DR_УчастникиОбмена
-               |;
+ Запрос.Текст = "ВЫБРАТЬ
+|	DR_НастройкиДополнительныеРеквизиты.Идентификатор КАК Идентификатор,
+|	ВЫБОР
+|		КОГДА DR_НастройкиДополнительныеРеквизиты.Значение ССЫЛКА Справочник.Контрагенты
+|			ТОГДА ВЫРАЗИТЬ(DR_НастройкиДополнительныеРеквизиты.Значение КАК Справочник.Контрагенты)
+|		ИНАЧЕ ВЫРАЗИТЬ(DR_НастройкиДополнительныеРеквизиты.Значение КАК Справочник.Организации)
+|	КОНЕЦ КАК Ссылка,
+|	DR_НастройкиДополнительныеРеквизитыGLN.Значение КАК GLN,
+|	DR_НастройкиДополнительныеРеквизитыGUID.Значение КАК GUID,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_Город.Значение КАК Адрес_Город,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_Дом.Значение КАК Адрес_Дом,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_Индекс.Значение КАК Адрес_Индекс,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_ИностранныйАдрес.Значение КАК Адрес_ИностранныйАдрес,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_Квартира.Значение КАК Адрес_Квартира,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_КодРегиона.Значение КАК Адрес_КодРегиона,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_Корпус.Значение КАК Адрес_Корпус,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_НаселПункт.Значение КАК Адрес_НаселПункт,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_Район.Значение КАК Адрес_Район,
+|	DR_НастройкиДополнительныеРеквизитыАдрес_Улица.Значение КАК Адрес_Улица,
+|	DR_НастройкиДополнительныеРеквизитыРоль.Значение КАК Роль,
+|	DR_НастройкиДополнительныеРеквизитыМЧД.Значение КАК ОтправитьМЧД
+|ПОМЕСТИТЬ DR_УчастникиОбмена
+|ИЗ
+|	Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизиты
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыGLN
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыGLN.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыGLN.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыGLN.Реквизит = ""GLN"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыGUID
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыGUID.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыGUID.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыGUID.Реквизит = ""GUID"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыРоль
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыРоль.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыРоль.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыРоль.Реквизит = ""Роль"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_Город
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_Город.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_Город.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_Город.Реквизит = ""Адрес_Город"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_Дом
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_Дом.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_Дом.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_Дом.Реквизит = ""Адрес_Дом"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_Индекс
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_Индекс.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_Индекс.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_Индекс.Реквизит = ""Адрес_Индекс"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_ИностранныйАдрес
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_ИностранныйАдрес.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_ИностранныйАдрес.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_ИностранныйАдрес.Реквизит = ""Адрес_ИностранныйАдрес"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_Квартира
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_Квартира.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_Квартира.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_Квартира.Реквизит = ""Адрес_Квартира"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_КодРегиона
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_КодРегиона.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_КодРегиона.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_КодРегиона.Реквизит = ""Адрес_КодРегиона"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_Корпус
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_Корпус.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_Корпус.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_Корпус.Реквизит = ""Адрес_Корпус"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_НаселПункт
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_НаселПункт.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_НаселПункт.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_НаселПункт.Реквизит = ""Адрес_НаселПункт"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_Район
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_Район.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_Район.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_Район.Реквизит = ""Адрес_Район"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыАдрес_Улица
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыАдрес_Улица.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыАдрес_Улица.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыАдрес_Улица.Реквизит = ""Адрес_Улица"")
+|		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.DR_Настройки.ДополнительныеРеквизиты КАК DR_НастройкиДополнительныеРеквизитыМЧД
+|		ПО (DR_НастройкиДополнительныеРеквизиты.Ссылка = DR_НастройкиДополнительныеРеквизитыМЧД.Ссылка)
+|			И (DR_НастройкиДополнительныеРеквизиты.Идентификатор = DR_НастройкиДополнительныеРеквизитыМЧД.Идентификатор)
+|			И (DR_НастройкиДополнительныеРеквизитыМЧД.Реквизит = ""ПоддерживаетМЧД"")
+|ГДЕ
+|	НЕ DR_НастройкиДополнительныеРеквизиты.Ссылка.ПометкаУдаления
+|	И DR_НастройкиДополнительныеРеквизиты.Ссылка.ВидНастройки = ""УЧАСТНИКИ_ОБМЕНА""
+|	И DR_НастройкиДополнительныеРеквизиты.Реквизит = ""Ссылка""
+|;
                |
                |////////////////////////////////////////////////////////////////////////////////
                |ВЫБРАТЬ
@@ -1572,35 +1681,35 @@
                |	DR_Документ_Основание.Ссылка КАК ДокументОснование,
                |	DR_УчастникиОбмена.ОтправитьМЧД КАК ОтправитьМЧД,
                |	Грузополучатель_GUID.GUID КАК Грузополучатель_GUID,
+               |	Грузополучатель_GUID.Адрес_Город КАК ГородГП,
+               |	Грузополучатель_GUID.Адрес_Дом КАК ДомГП,
+               |	Грузополучатель_GUID.Адрес_Индекс КАК ИндексГП,
+               |	Грузополучатель_GUID.Адрес_ИностранныйАдрес КАК ИностранныйАдресГП,
+               |	Грузополучатель_GUID.Адрес_Квартира КАК КвартГП,
+               |	Грузополучатель_GUID.Адрес_КодРегиона КАК КодРегионГП,
+               |	Грузополучатель_GUID.Адрес_Корпус КАК КорпусГП,
+               |	Грузополучатель_GUID.Адрес_НаселПункт КАК НаселПунктГП,
+               |	Грузополучатель_GUID.Адрес_Район КАК РайонГП,
+               |	Грузополучатель_GUID.Адрес_Улица КАК УлицаГП,
+               //|	Грузополучатель_GUID.Адрес_ЯвляетсяИностранным КАК ЯвляетсяИностраннымГП,
                |	Грузополучатель_GUID.Ссылка.ИНН КАК ГрузополучательИНН,
-               |	Грузополучатель_GUID.Ссылка.КПП КАК ГрузополучательКПП,
-			   |	Грузополучатель_GUID.Адрес_Город КАК ГородГП,
-			   |	Грузополучатель_GUID.Адрес_Дом КАК ДомГП,
-			   |	Грузополучатель_GUID.Адрес_Индекс КАК ИндексГП,
-			   |	Грузополучатель_GUID.Адрес_ИностранныйАдрес КАК ИностранныйАдресГП,
-			   |	Грузополучатель_GUID.Адрес_Квартира КАК КвартГП,
-			   |	Грузополучатель_GUID.Адрес_КодРегиона КАК КодРегионГП,
-			   |	Грузополучатель_GUID.Адрес_Корпус КАК КорпусГП,
-			   |	Грузополучатель_GUID.Адрес_НаселПункт КАК НаселПунктГП,
-			   |	Грузополучатель_GUID.Адрес_Район КАК РайонГП,
-			   |	Грузополучатель_GUID.Адрес_Улица КАК УлицаГП,
-			   |	Грузополучатель_GUID.Адрес_ЯвляетсяИностранным КАК ЯвляетсяИностраннымГП,
+			   |	Грузополучатель_GUID.Ссылка.КПП КАК ГрузополучательКПП,
 			   |	Грузополучатель_GUID.Ссылка.Представление КАК ПредставлениеГрузополучателя
                |ИЗ
                |	Документ.DR_Документы КАК DR_Документы
                |		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_DRДокументУчастники КАК ВТ_DRДокументУчастники
                |			ЛЕВОЕ СОЕДИНЕНИЕ Документ.DR_Документы КАК DR_ДокументыОснование
-               |			ПО ВТ_DRДокументУчастники.ИдентификаторОснования = DR_ДокументыОснование.ИдентификаторДокумента
+               |			ПО (ВТ_DRДокументУчастники.ИдентификаторОснования = DR_ДокументыОснование.ИдентификаторДокумента)
                |			ЛЕВОЕ СОЕДИНЕНИЕ DR_УчастникиОбмена КАК Грузополучатель_GUID
-               |			ПО ВТ_DRДокументУчастники.Грузополучатель = Грузополучатель_GUID.Ссылка
+               |			ПО (ВТ_DRДокументУчастники.Грузополучатель = Грузополучатель_GUID.Ссылка)
                |			ЛЕВОЕ СОЕДИНЕНИЕ DR_УчастникиОбмена КАК DR_УчастникиОбмена
                |			ПО (ВТ_DRДокументУчастники.Организация = DR_УчастникиОбмена.Ссылка
-               |					И DR_УчастникиОбмена.Роль = ""Грузоперевозчик"")			   
-               |		ПО DR_Документы.Ссылка = ВТ_DRДокументУчастники.DR_Документ 
+               |					И DR_УчастникиОбмена.Роль = ""Грузоперевозчик"")
+               |		ПО (DR_Документы.Ссылка = ВТ_DRДокументУчастники.DR_Документ)
                |		ЛЕВОЕ СОЕДИНЕНИЕ Документ.DR_Документы КАК DR_Документ_Основание
-               |		ПО DR_Документ_Основание.ИдентификаторДокумента = ВТ_DRДокументУчастники.ИдентификаторОснования
+               |		ПО (DR_Документ_Основание.ИдентификаторДокумента = ВТ_DRДокументУчастники.ИдентификаторОснования)
                |ГДЕ
-               |	DR_Документы.Ссылка В(&amp;Документ)";
+               |	DR_Документы.Ссылка В (&amp;Документ)";
  Запрос.УстановитьПараметр("DR_УчастникиОбмена", DR_УчастникиОбмена.Выгрузить());
  Запрос.УстановитьПараметр("Документ", Источник);
  РезультатЗапроса = Запрос.Выполнить(); 
@@ -1626,7 +1735,7 @@
  Результат.Колонки.Добавить("НалКоорТочВрПА"		, Новый ОписаниеТипов("Строка")); 
  Результат.Колонки.Добавить("ФормаПА"				, Новый ОписаниеТипов("Строка")); 
  Результат.Колонки.Добавить("ВидДост"				, Новый ОписаниеТипов("Строка")); 
- Результат.Колонки.Добавить("ЭПУвПА"				, Новый ОписаниеТипов("Строка")); 
+// Результат.Колонки.Добавить("ЭПУвПА"				, Новый ОписаниеТипов("Строка")); 
                  
  //НовПунктВыгр 
  	Результат.Колонки.Добавить("ДатВрНовВыгрПА"		, Новый ОписаниеТипов("Дата")); 
@@ -1635,10 +1744,10 @@
  	//АдрВыгруз
  
  //ОтметПА	
- Результат.Колонки.Добавить("ДатВрОтмет"			, Новый ОписаниеТипов("Дата")); 
- Результат.Колонки.Добавить("ДатВрОтметСтр"			, Новый ОписаниеТипов("Строка")); 
- Результат.Колонки.Добавить("НалКоорТочВрОтм"		, Новый ОписаниеТипов("Строка")); 
- Результат.Колонки.Добавить("ОбстОтмет"				, Новый ОписаниеТипов("Строка")); 
+// Результат.Колонки.Добавить("ДатВрОтмет"			, Новый ОписаниеТипов("Дата")); 
+// Результат.Колонки.Добавить("ДатВрОтметСтр"			, Новый ОписаниеТипов("Строка")); 
+// Результат.Колонки.Добавить("НалКоорТочВрОтм"		, Новый ОписаниеТипов("Строка")); 
+// Результат.Колонки.Добавить("ОбстОтмет"				, Новый ОписаниеТипов("Строка")); 
  
  //ИспрТрн
  Результат.Колонки.Добавить("НомерИспр"				, Новый ОписаниеТипов("Строка")); 
@@ -1706,7 +1815,7 @@
  		Результат.Колонки.Добавить("АдрТекст"			, Новый ОписаниеТипов("Строка"));
  	Результат.Колонки.Добавить("КодГАР"					, Новый ОписаниеТипов("Строка"));
  	//Контакт
-	Результат.Колонки.Добавить("Тлф"				, Новый ОписаниеТипов("СписокЗначений"));
+ 	Результат.Колонки.Добавить("Тлф"				, Новый ОписаниеТипов("списокзначений"));
  	Результат.Колонки.Добавить("ЭлПочта"			, Новый ОписаниеТипов("Строка"));
  	Результат.Колонки.Добавить("ИнКонт"				, Новый ОписаниеТипов("Строка"));
   
@@ -1715,9 +1824,9 @@
  Результат.Колонки.Добавить("ДолжнПодп"				, Новый ОписаниеТипов("Строка"));
  Результат.Колонки.Добавить("ФамилияПодп"			, Новый ОписаниеТипов("Строка"));
  Результат.Колонки.Добавить("ИмяПодп"				, Новый ОписаниеТипов("Строка"));
- Результат.Колонки.Добавить("ОтчествоПодп"			, Новый ОписаниеТипов("Строка"));
+ Результат.Колонки.Добавить("ОтчествоПодп"			, Новый ОписаниеТипов("Строка"));  
  
-  //МЧД
+ //МЧД
 Результат.Колонки.Добавить("Сертификат");
 Результат.Колонки.Добавить("СтрокаМЧД");
 Результат.Колонки.Добавить("GUIDФайла"); 
@@ -1762,24 +1871,24 @@
 	 
 	//Получаем текст подписи из файла BIN 
 	ДвоичныеДанныеBIN = Строка.Ссылка.ДанныеЭЦП.Получить();
-	//ВременныйКаталог = ПутьВременногоКаталога_DR();		
-	//ПутьКФайлу 		 = ВременныйКаталог + "Подпись_" + Строка.Номер + ".bin"; //Формат(ТекущаяДата(), "ДФ=yyyyMMddHHmmss") + ".bin"; 
-	//ДвоичныеДанныеBIN.Записать(ПутьКФайлу);	
-	//Текст = Новый ТекстовыйДокумент;
-	//Текст.Прочитать(ПутьКФайлу);		
-	//Строка.ЭП = Текст.ПолучитьТекст();	
+	ВременныйКаталог = ПутьВременногоКаталога_DR();		
+	ПутьКФайлу 		 = ВременныйКаталог + "Подпись_" + Строка.Номер + ".bin"; //Формат(ТекущаяДата(), "ДФ=yyyyMMddHHmmss") + ".bin"; 
+	ДвоичныеДанныеBIN.Записать(ПутьКФайлу);	
+	Текст = Новый ТекстовыйДокумент;
+	Текст.Прочитать(ПутьКФайлу);		
+	Строка.ЭП = Текст.ПолучитьТекст();	
 	
-	//Попытка
-	//	УдалитьФайлы(ПутьКФайлу);
-	//Исключение
-	//КонецПопытки;
+	Попытка
+		УдалитьФайлы(ПутьКФайлу);
+	Исключение
+	КонецПопытки;
 	
 	//Альтернативный способ получения подписи, для сертификатов хранящихся в формате base64
 	
-	ПодписьBase64 = Base64Строка(ДвоичныеДанныеBIN);  
-	ПодписьBase64 = СтрЗаменить(ПодписьBase64, Символы.ПС, "");
-	ПодписьBase64 = СтрЗаменить(ПодписьBase64, Символы.ВК, "");
-	Строка.ЭП = ПодписьBase64;
+	//ПодписьBase64 = Base64Строка(ДвоичныеДанныеBIN);  
+//	ПодписьBase64 = СтрЗаменить(ПодписьBase64, Символы.ПС, "");
+//	ПодписьBase64 = СтрЗаменить(ПодписьBase64, Символы.ВК, "");
+//	Строка.ЭП = ПодписьBase64;
 	      
 	 //СодИнфПА
 	 Строка.УИД_ТрН			= Новый УникальныйИдентификатор();
@@ -1788,10 +1897,8 @@
 	 Строка.ДатаИспрСтр     = Строка(Формат(Строка.ДатаИспр,"ДФ=dd.MM.yyyy")); // + "T" + Формат(Строка.ДатаИспр,"ДФ=чч:мм:сс") + ПустойUTC;
 	 Строка.НалКоорТочВрПА  = "0";
 	   
-	 Строка.НалКоорТочВрОтм = "0";
 	 Строка.ФормаПА 		= "Электронная";
-	 Строка.ВидДост 	 	= "Электронное уведомление перевозчика о переадресовк";
-	 //Строка.ЭПУвПА 			= "???????????hxXBnY78iU6Erz9Urfi3Vw??????????";  
+	 Строка.ВидДост 	 	= "Электронное уведомление перевозчика о переадресовк";  
 	 	
 	 	//ОснПА
 	 	Строка.ИННЮЛ 	= Строка.ГрузополучательИНН;
@@ -1912,10 +2019,12 @@
      Строка.Улица         = СокрЛП(СписокАдресов["ГрузополучательУлица"]);
      Строка.Дом           = СокрЛП(СписокАдресов["ГрузополучательДом"]);
      Строка.Корпус        = СокрЛП(СписокАдресов["ГрузополучательКорпус"]);
-     Строка.Кварт         = СокрЛП(СписокАдресов["ГрузополучательКвартира"]);	
+     Строка.Кварт         = СокрЛП(СписокАдресов["ГрузополучательКвартира"]);
 	 
 	 Телефон = Новый СписокЗначений;
 	 Телефон.Добавить("11111");
+	 Телефон.Добавить("22222");
+	 Телефон.Добавить("33333");
 	 Строка.Тлф = Телефон;
 	 
 	 //НовПунктВыгр
@@ -1923,10 +2032,11 @@
 	 Строка.НалКоорТочВрВгрПА = "0"; 
 	 
 	 //ОтметПА
-	 Строка.ДатВрОтметСтр 	= Строка(Формат(Строка.ДатВрОтмет,"ДФ=dd.MM.yyyy")) + "T" + Формат(Строка.ДатВрОтмет,"ДФ=чч:мм:сс") + ПустойUTC;
-	 Строка.НалКоорТочВрОтм = "0";
+	 //Строка.ДатВрОтметСтр 	= Строка(Формат(Строка.ДатВрОтмет,"ДФ=dd.MM.yyyy")) + "T" + Формат(Строка.ДатВрОтмет,"ДФ=чч:мм:сс") + ПустойUTC;
+	 //Строка.НалКоорТочВрОтм = "0";
 	 
-	//////////////////////МЧД//////////////////////
+	 
+	  //////////////////////МЧД//////////////////////
     СтрокаПоМЧД = ТаблицаМЧД.Найти(Строка.Организация, "Организация");
 	Если СтрокаПоМЧД &lt;&gt; Неопределено И СтрокаПоМЧД.Организация_ПоддерживаетМЧД = Истина И Строка.ОтправитьМЧД = Истина Тогда 
 
@@ -1992,61 +2102,21 @@
 		 Строка.ФамилияПодп			= ФамилияПодписанта;
 		 Строка.ИмяПодп				= ИмяПодписанта;
 		 Строка.ОтчествоПодп		= ОтчествоПодписанта;
-		// Строка.ЭП					= ОтпечатокСертификата;	
+		 //Строка.ЭП					= ОтпечатокСертификата;	
 	 Исключение
 	 КонецПопытки;
 	 
  КонецЦикла;
  
  Возврат Результат;</Value>
-		<Value xsi:type="xs:boolean">false</Value>
+		<Value xsi:type="ValueTable"/>
 		<Value xsi:type="ValueListType">
 			<valueType/>
-			<lastId xsi:type="xs:decimal">5</lastId>
+			<lastId xsi:type="xs:decimal">0</lastId>
 			<item>
-				<value xsi:type="xs:string">ИдФайл</value>
-				<presentation>Документ.ИдФайл</presentation>
-				<id xsi:type="xs:decimal">3</id>
+				<value xsi:type="xs:string">НомерПоПорядку</value>
+				<id xsi:type="xs:decimal">0</id>
 			</item>
-			<item>
-				<value xsi:type="xs:string">ВерсФорм</value>
-				<presentation>Документ.ВерсФорм</presentation>
-				<id xsi:type="xs:decimal">4</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВерсПрог</value>
-				<presentation>Документ.ВерсПрог</presentation>
-				<id xsi:type="xs:decimal">5</id>
-			</item>
-		</Value>
-		<Value xsi:type="Structure">
-			<Property name="Ссылка">
-				<Value xsi:type="xs:string">Документ.Ссылка</Value>
-			</Property>
-			<Property name="ВидДокумента">
-				<Value xsi:type="xs:string">Документ.ВидДокумента</Value>
-			</Property>
-			<Property name="Идентификатор">
-				<Value xsi:type="xs:string">Документ.ИдентификаторДокумента</Value>
-			</Property>
-			<Property name="Номер">
-				<Value xsi:type="xs:string">Документ.Номер</Value>
-			</Property>
-			<Property name="ФайлИмя">
-				<Value xsi:type="xs:string">Документ.ИмяФайла</Value>
-			</Property>
-			<Property name="Организация">
-				<Value xsi:type="xs:string">Документ.Организация</Value>
-			</Property>
-			<Property name="Грузоотправитель">
-				<Value xsi:type="xs:string">Документ.Грузоотправитель</Value>
-			</Property>
-			<Property name="Грузополучатель">
-				<Value xsi:type="xs:string">Документ.Грузополучатель</Value>
-			</Property>
-			<Property name="Грузоперевозчик">
-				<Value xsi:type="xs:string">Документ.Грузоперевозчик</Value>
-			</Property>
 		</Value>
 		<Value xsi:type="ValueListType">
 			<valueType/>
@@ -2054,459 +2124,8 @@
 		</Value>
 		<Value xsi:type="xs:decimal">0</Value>
 		<Value xsi:type="xs:decimal">0</Value>
-		<Value xsi:type="ValueTable"/>
-		<Value xsi:type="ValueListType">
-			<valueType/>
-			<lastId xsi:type="xs:decimal">111</lastId>
-			<item>
-				<value xsi:type="xs:string">Ссылка</value>
-				<id xsi:type="xs:decimal">0</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Номер</value>
-				<id xsi:type="xs:decimal">1</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Дата</value>
-				<id xsi:type="xs:decimal">2</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдентификаторДокумента</value>
-				<id xsi:type="xs:decimal">3</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВидДокумента</value>
-				<id xsi:type="xs:decimal">4</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Организация</value>
-				<id xsi:type="xs:decimal">5</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Заказчик</value>
-				<id xsi:type="xs:decimal">6</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдентификаторОснования</value>
-				<id xsi:type="xs:decimal">7</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузоотправитель</value>
-				<id xsi:type="xs:decimal">8</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузополучатель</value>
-				<id xsi:type="xs:decimal">9</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузоперевозчик</value>
-				<id xsi:type="xs:decimal">10</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаОсн</value>
-				<id xsi:type="xs:decimal">11</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДокументОснование</value>
-				<id xsi:type="xs:decimal">12</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузополучатель_GUID</value>
-				<id xsi:type="xs:decimal">13</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГрузополучательИНН</value>
-				<id xsi:type="xs:decimal">14</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГрузополучательКПП</value>
-				<id xsi:type="xs:decimal">15</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Грузополучатель_ОператорЭДО_Ид</value>
-				<id xsi:type="xs:decimal">16</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ГородГП</value>
-				<id xsi:type="xs:decimal">17</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДомГП</value>
-				<id xsi:type="xs:decimal">18</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИндексГП</value>
-				<id xsi:type="xs:decimal">19</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИностранныйАдресГП</value>
-				<id xsi:type="xs:decimal">20</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КвартГП</value>
-				<id xsi:type="xs:decimal">21</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодРегионГП</value>
-				<id xsi:type="xs:decimal">22</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КорпусГП</value>
-				<id xsi:type="xs:decimal">23</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаселПунктГП</value>
-				<id xsi:type="xs:decimal">24</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">РайонГП</value>
-				<id xsi:type="xs:decimal">25</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УлицаГП</value>
-				<id xsi:type="xs:decimal">26</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЯвляетсяИностраннымГП</value>
-				<id xsi:type="xs:decimal">27</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПредставлениеГрузополучателя</value>
-				<id xsi:type="xs:decimal">28</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдФайл</value>
-				<id xsi:type="xs:decimal">29</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВерсПрог</value>
-				<id xsi:type="xs:decimal">30</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВерсФорм</value>
-				<id xsi:type="xs:decimal">31</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИмяФайла</value>
-				<id xsi:type="xs:decimal">32</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИдПолИной</value>
-				<id xsi:type="xs:decimal">33</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КНД</value>
-				<id xsi:type="xs:decimal">34</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ПоФактХЖ</value>
-				<id xsi:type="xs:decimal">35</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаИнфПА</value>
-				<id xsi:type="xs:decimal">36</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВрИнфПА</value>
-				<id xsi:type="xs:decimal">37</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УИД_ТрН</value>
-				<id xsi:type="xs:decimal">38</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СодОпер</value>
-				<id xsi:type="xs:decimal">39</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатФайлПрвПрием</value>
-				<id xsi:type="xs:decimal">40</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВрФайлПрвПрием</value>
-				<id xsi:type="xs:decimal">41</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭП</value>
-				<id xsi:type="xs:decimal">42</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатВрПА</value>
-				<id xsi:type="xs:decimal">43</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатВрПАСтр</value>
-				<id xsi:type="xs:decimal">44</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НалКоорТочВрПА</value>
-				<id xsi:type="xs:decimal">45</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФормаПА</value>
-				<id xsi:type="xs:decimal">46</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ВидДост</value>
-				<id xsi:type="xs:decimal">47</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭПУвПА</value>
-				<id xsi:type="xs:decimal">48</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатВрНовВыгрПА</value>
-				<id xsi:type="xs:decimal">49</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатВрНовВыгрПАСтр</value>
-				<id xsi:type="xs:decimal">50</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НалКоорТочВрВгрПА</value>
-				<id xsi:type="xs:decimal">51</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатВрОтмет</value>
-				<id xsi:type="xs:decimal">52</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатВрОтметСтр</value>
-				<id xsi:type="xs:decimal">53</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НалКоорТочВрОтм</value>
-				<id xsi:type="xs:decimal">54</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОбстОтмет</value>
-				<id xsi:type="xs:decimal">55</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НомерИспр</value>
-				<id xsi:type="xs:decimal">56</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаИспр</value>
-				<id xsi:type="xs:decimal">57</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДатаИспрСтр</value>
-				<id xsi:type="xs:decimal">58</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснПАНаимДок</value>
-				<id xsi:type="xs:decimal">59</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснПАНомерДок</value>
-				<id xsi:type="xs:decimal">60</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснПАДатаДок</value>
-				<id xsi:type="xs:decimal">61</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснПАДатаДокСтр</value>
-				<id xsi:type="xs:decimal">62</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснПАИдДок</value>
-				<id xsi:type="xs:decimal">63</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОснПАДопСведДок</value>
-				<id xsi:type="xs:decimal">64</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННЮЛ</value>
-				<id xsi:type="xs:decimal">65</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННФЛ</value>
-				<id xsi:type="xs:decimal">66</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаимОИВ</value>
-				<id xsi:type="xs:decimal">67</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИННУчаст</value>
-				<id xsi:type="xs:decimal">68</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнфУчаст</value>
-				<id xsi:type="xs:decimal">69</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИП_ИННФЛ</value>
-				<id xsi:type="xs:decimal">70</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИП_ОГРНИП</value>
-				<id xsi:type="xs:decimal">71</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИП_ИныеСвед</value>
-				<id xsi:type="xs:decimal">72</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИП_Фамилия</value>
-				<id xsi:type="xs:decimal">73</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИП_Имя</value>
-				<id xsi:type="xs:decimal">74</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИП_Отчество</value>
-				<id xsi:type="xs:decimal">75</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвЮЛУч_НаимОрг</value>
-				<id xsi:type="xs:decimal">76</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвЮЛУч_ИННЮЛ</value>
-				<id xsi:type="xs:decimal">77</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвЮЛУч_КПП</value>
-				<id xsi:type="xs:decimal">78</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИнНеУч_ИдСтат</value>
-				<id xsi:type="xs:decimal">79</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИнНеУч_Стран</value>
-				<id xsi:type="xs:decimal">80</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИнНеУч_Наим</value>
-				<id xsi:type="xs:decimal">81</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИнНеУч_Идентиф</value>
-				<id xsi:type="xs:decimal">82</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвИнНеУч_ИныеСвед</value>
-				<id xsi:type="xs:decimal">83</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УдЛичнИнФЛ_ВидДок</value>
-				<id xsi:type="xs:decimal">84</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УдЛичнИнФЛ_НомДок</value>
-				<id xsi:type="xs:decimal">85</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">УдЛичнИнФЛ_ДатаДок</value>
-				<id xsi:type="xs:decimal">86</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвФЛУчаст_ИННФЛ</value>
-				<id xsi:type="xs:decimal">87</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвФЛУчаст_ИныеСвед</value>
-				<id xsi:type="xs:decimal">88</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвФЛУчаст_Фамилия</value>
-				<id xsi:type="xs:decimal">89</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвФЛУчаст_Имя</value>
-				<id xsi:type="xs:decimal">90</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СвФЛУчаст_Отчество</value>
-				<id xsi:type="xs:decimal">91</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Индекс</value>
-				<id xsi:type="xs:decimal">92</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодРегион</value>
-				<id xsi:type="xs:decimal">93</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Район</value>
-				<id xsi:type="xs:decimal">94</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Город</value>
-				<id xsi:type="xs:decimal">95</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">НаселПункт</value>
-				<id xsi:type="xs:decimal">96</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Улица</value>
-				<id xsi:type="xs:decimal">97</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Дом</value>
-				<id xsi:type="xs:decimal">98</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Корпус</value>
-				<id xsi:type="xs:decimal">99</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Кварт</value>
-				<id xsi:type="xs:decimal">100</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодСтр</value>
-				<id xsi:type="xs:decimal">101</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">АдрТекст</value>
-				<id xsi:type="xs:decimal">102</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">КодГАР</value>
-				<id xsi:type="xs:decimal">103</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">Тлф</value>
-				<id xsi:type="xs:decimal">104</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ЭлПочта</value>
-				<id xsi:type="xs:decimal">105</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИнКонт</value>
-				<id xsi:type="xs:decimal">106</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">СтатПодп</value>
-				<id xsi:type="xs:decimal">107</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ДолжнПодп</value>
-				<id xsi:type="xs:decimal">108</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ФамилияПодп</value>
-				<id xsi:type="xs:decimal">109</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ИмяПодп</value>
-				<id xsi:type="xs:decimal">110</id>
-			</item>
-			<item>
-				<value xsi:type="xs:string">ОтчествоПодп</value>
-				<id xsi:type="xs:decimal">111</id>
-			</item>
-		</Value>
+		<Value xsi:type="xs:boolean">true</Value>
+		<Value xsi:type="xs:string">Переадресовка</Value>
 		<Value xsi:type="ValueListType">
 			<valueType/>
 			<lastId xsi:type="xs:decimal">4</lastId>
