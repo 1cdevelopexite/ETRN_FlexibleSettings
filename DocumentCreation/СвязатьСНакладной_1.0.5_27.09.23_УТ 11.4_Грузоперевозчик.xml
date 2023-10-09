@@ -1,0 +1,138 @@
+﻿<ValueTree xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ValueTree">
+	<column>
+		<Name xsi:type="xs:string">Использовать</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Кнопка</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Источник</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Приемник</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Служебные</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Формула</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">СлужебныеТекст</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Сохранение</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">Загрузка</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">КолонкаИсточника</Name>
+		<ValueType/>
+	</column>
+	<column>
+		<Name xsi:type="xs:string">КоллекцияТЧ</Name>
+		<ValueType/>
+	</column>
+	<row>
+		<Value xsi:type="xs:boolean">true</Value>
+		<Value xsi:type="xs:string">СвязатьСНакладной</Value>
+		<Value xsi:type="xs:string">РеализацияТоваровУслуг</Value>
+		<Value xsi:type="xs:string">DR_Документы</Value>
+		<Value xsi:type="xs:string">//Дополнительные реквизиты документа	
+СписокРеквизитов = Новый Соответствие;
+СписокРеквизитов.Вставить("ВалКод", 	Источник.Валюта.Код);
+СписокРеквизитов.Вставить("ВалНаим", 	Источник.Валюта.Наименование); 
+СписокРеквизитов.Вставить("Документ1С", Источник.Ссылка);
+СписокРеквизитов.Вставить("НаимЭкСубСост", Источник.Организация.НаименованиеПолное); 
+	    
+//расчет сумм   
+СуммаСНДС = 0;
+СуммаНДС = 0;
+
+СуммаСНДС = Источник.Товары.Итог("Сумма");
+СуммаНДС = Источник.Товары.Итог("СуммаНДС"); 
+
+Если Не Источник.Товары.Количество() = 0 Тогда
+
+	Если Источник.НалогообложениеНДС = Перечисления.ТипыНалогообложенияНДС.ПродажаОблагаетсяНДС Тогда
+		СписокРеквизитов.Вставить("СтТовБезНДС", СуммаСНДС - СуммаНДС); 
+	ИначеЕсли Источник.НалогообложениеНДС = Перечисления.ТипыНалогообложенияНДС.ПродажаНеОблагаетсяНДС Тогда  
+	    СписокРеквизитов.Вставить("СтТовБезНДС", СуммаСНДС);      
+	КонецЕсли;
+
+	СтавкаНДС = СтавкаНДССтрокой(Источник.Товары[0].СтавкаНДС);
+	Если ЗначениеЗаполнено(СтавкаНДС) Тогда
+		СписокРеквизитов.Вставить("НалСт", 		СтавкаНДС);
+	Иначе
+		ЛогСобытий = "Не удалось получить ставку НДС строкой";
+	КонецЕсли;
+		    
+	СписокРеквизитов.Вставить("СтТовУчНал", СуммаСНДС); 
+	Если Не СтавкаНДС = "без НДС" Тогда
+		СписокРеквизитов.Вставить("СумНДС", 	СуммаНДС);	                  
+		СписокРеквизитов.Вставить("БезНДС", 	Ложь);	                  
+	Иначе
+		СписокРеквизитов.Вставить("СумНДС", 	0);
+	    СписокРеквизитов.Вставить("БезНДС", 	Истина);	                  
+	КонецЕсли;
+			
+	Для Каждого Запись из СписокРеквизитов Цикл
+
+		НайденаяСтрока = Приемник.ДополнительныеРеквизиты.Найти(Запись.Ключ, "Реквизит");
+		Если НайденаяСтрока = Неопределено Тогда 
+			НайденаяСтрока = Приемник.ДополнительныеРеквизиты.Добавить();	
+		КонецЕсли;
+				
+		НайденаяСтрока.Реквизит = Запись.Ключ;
+		НайденаяСтрока.Значение = Запись.Значение;
+		
+	КонецЦикла;
+		
+	Приемник.Записать();
+	
+Иначе
+	Сообщить("В документе основания "+ Источник +" отсутствуют данные в таблице ""Услуги""");
+КонецЕсли;	</Value>
+		<Value xsi:type="xs:string"/>
+		<Value xsi:type="xs:decimal">0</Value>
+		<Value xsi:type="xs:decimal">0</Value>
+		<Value xsi:type="xs:decimal">0</Value>
+		<Value xsi:type="xs:string">ТекущийДокумент</Value>
+		<Value xsi:type="ValueListType">
+			<valueType/>
+			<lastId xsi:type="xs:decimal">4</lastId>
+			<item>
+				<value xsi:type="xs:string">ДополнительныйПолучатель</value>
+				<id xsi:type="xs:decimal">0</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Грузоперевозчик</value>
+				<checkState>1</checkState>
+				<id xsi:type="xs:decimal">1</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Грузополучатель</value>
+				<id xsi:type="xs:decimal">2</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">Грузоотправитель</value>
+				<id xsi:type="xs:decimal">3</id>
+			</item>
+			<item>
+				<value xsi:type="xs:string">ИмяКнопки</value>
+				<presentation>СвязатьСНакладной</presentation>
+				<id xsi:type="xs:decimal">4</id>
+			</item>
+		</Value>
+	</row>
+</ValueTree>
